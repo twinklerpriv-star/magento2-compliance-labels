@@ -1,0 +1,477 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+.compliance-labels-container {
+    margin: 20px 0;
+    max-width: 100%;
+}
+
+/* 1. Gesetzliche Gewährleistung Poster Box */
+.compliance-notice-poster {
+    border: 2px solid #003399;
+    border-radius: 8px;
+    background-color: #ffffff;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #000000;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 51, 153, 0.08);
+    overflow: hidden;
+}
+
+.notice-poster-header {
+    background-color: #003399;
+    display: flex;
+    align-items: center;
+    padding: 12px 20px;
+    gap: 15px;
+}
+
+.eu-emblem {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+}
+
+.notice-poster-header h2 {
+    margin: 0;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+}
+
+.notice-poster-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 20px;
+    gap: 25px;
+    border-bottom: 2px solid #003399;
+}
+
+@media (max-width: 767px) {
+    .notice-poster-body {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}
+
+.poster-column {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.poster-left-col {
+    border-right: 1px solid #d1d5db;
+    padding-right: 25px;
+}
+
+@media (max-width: 767px) {
+    .poster-left-col {
+        border-right: none;
+        padding-right: 0;
+        border-bottom: 1px solid #d1d5db;
+        padding-bottom: 20px;
+    }
+}
+
+.mandatory-highlight-box {
+    border: 1.5px solid #003399;
+    border-radius: 4px;
+    padding: 10px 15px;
+    font-size: 13.5px;
+    line-height: 1.45;
+    color: #003399;
+}
+
+.poster-intro-text {
+    margin: 0;
+    font-size: 12.5px;
+    line-height: 1.4;
+    color: #333333;
+}
+
+.poster-list {
+    margin: 0;
+    padding-left: 20px;
+    font-size: 12.5px;
+    line-height: 1.4;
+    color: #333333;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.poster-list li {
+    list-style-type: square;
+}
+
+.poster-subtitle {
+    margin: 10px 0 0 0;
+    font-size: 12.5px;
+    line-height: 1.4;
+}
+
+.poster-right-col p {
+    margin: 0;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #333333;
+}
+
+.poster-qr-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    margin-top: 10px;
+    background-color: #fafafa;
+    border: 1px solid #e5e7eb;
+    border-radius: 6px;
+    padding: 12px;
+}
+
+.poster-qr-container {
+    width: 90px;
+    height: 90px;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #d1d5db;
+    padding: 4px;
+}
+
+.poster-qr-container svg {
+    width: 100%;
+    height: 100%;
+}
+
+.poster-qr-link {
+    font-size: 11px;
+    color: #003399;
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.poster-qr-link:hover {
+    color: #002266;
+}
+
+.notice-poster-footer {
+    padding: 15px 20px;
+    background-color: #f7f9ff;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.notice-poster-footer h3 {
+    margin: 0;
+    font-size: 13.5px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.footer-steps {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer-steps li {
+    list-style: none;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #333333;
+}
+
+.footer-steps li span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 18px;
+    height: 18px;
+    background-color: #000000;
+    color: #ffffff;
+    font-size: 11px;
+    font-weight: 700;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.footer-garan-info {
+    border-top: 1px solid #d1d5db;
+    padding-top: 12px;
+    margin-top: 5px;
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+}
+
+@media (max-width: 500px) {
+    .footer-garan-info {
+        flex-direction: column;
+        gap: 8px;
+    }
+}
+
+.garan-mini-logo {
+    display: flex;
+    align-items: center;
+    border: 1.5px solid #000000;
+    border-radius: 4px;
+    padding: 3px 6px;
+    background-color: #ffffff;
+    font-weight: 800;
+    font-size: 11px;
+    letter-spacing: 0.5px;
+    flex-shrink: 0;
+}
+
+.garan-logo-check {
+    color: #16a34a;
+    margin-left: 4px;
+}
+
+.footer-garan-info p {
+    margin: 0;
+    font-size: 11px;
+    line-height: 1.45;
+    color: #4b5563;
+}
+
+/* 2. Freiwillige Herstellergarantie (einklappbar) */
+.compliance-warranty-label {
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    background-color: #ffffff;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.garan-trigger {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 20px;
+    cursor: pointer;
+    background-color: #f9fafb;
+    user-select: none;
+    transition: background-color 0.2s ease;
+}
+
+.garan-trigger:hover {
+    background-color: #f3f4f6;
+}
+
+.garan-trigger-left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.garan-mini-logo-box {
+    display: flex;
+    align-items: center;
+    border: 1.5px solid #000000;
+    border-radius: 4px;
+    padding: 2px 5px;
+    background-color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    font-size: 10px;
+    letter-spacing: 0.5px;
+}
+
+.garan-mini-check {
+    color: #16a34a;
+    margin-left: 3px;
+}
+
+.garan-trigger-title {
+    font-size: 13px;
+    font-weight: 600;
+    color: #1f2937;
+}
+
+.garan-arrow {
+    font-size: 11px;
+    color: #6b7280;
+    transition: transform 0.25s ease;
+}
+
+.compliance-warranty-label.active .garan-arrow {
+    transform: rotate(180deg);
+}
+
+/* Ausgeklapptes Garan-Label */
+.garan-full-label {
+    display: none;
+    padding: 20px;
+    border-top: 1px solid #e5e7eb;
+    background-color: #ffffff;
+    justify-content: center;
+    animation: slideDown 0.3s ease-out;
+}
+
+.compliance-warranty-label.active .garan-full-label {
+    display: flex;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-5px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Die normierte EU-Label-Karte */
+.garan-card {
+    width: 100%;
+    max-width: 330px;
+    border: 3px solid #000000;
+    border-radius: 0px; /* Die offizielle Vorlage ist meist eckig */
+    background-color: #ffffff;
+    padding: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.garan-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #000000;
+    margin-bottom: 8px;
+}
+
+.garan-card-logo {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.garan-card-logo-text {
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    color: #000000;
+    letter-spacing: 0.5px;
+}
+
+.garan-card-logo-check-box {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #000000;
+    border-radius: 4px;
+    font-weight: 900;
+    font-size: 14px;
+    color: #16a34a; /* green check */
+}
+
+.garan-card-eu-logo {
+    display: flex;
+    align-items: center;
+}
+
+.garan-card-row-data {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #000000;
+    margin-bottom: 8px;
+}
+
+.garan-data-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.garan-data-box .garan-label {
+    font-size: 8.5px;
+    color: #6b7280;
+    font-family: Arial, sans-serif;
+    font-weight: normal;
+}
+
+.garan-data-box .garan-value {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 13.5px;
+    color: #000000;
+    padding: 2px 0;
+    border-bottom: 1.5px solid #000000;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.garan-card-row-middle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #000000;
+    margin-bottom: 8px;
+}
+
+.garan-duration-container {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.garan-years-big {
+    font-family: 'Inter', sans-serif;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 1;
+    color: #000000;
+}
+
+.garan-calendar-icon {
+    display: flex;
+    align-items: center;
+}
+
+.garan-qr-container {
+    width: 72px;
+    height: 72px;
+    border: 1px solid #000000;
+    padding: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.garan-qr-container svg {
+    width: 100%;
+    height: 100%;
+}
+
+.garan-card-footnotes {
+    font-family: Arial, sans-serif;
+    font-size: 7px;
+    line-height: 1.35;
+    color: #000000;
+    text-align: justify;
+}
+
+.footnotes-text {
+    word-break: break-word;
+}

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Sbs_ComplianceLabels Magento 2 Extension
+ *
+ * @category  Sbs
+ * @package   Sbs_ComplianceLabels
+ * @author    Thomas Winkler <t.winkler.priv@gmail.com>
+ * @copyright 2026 SBS
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
+    <module name="Sbs_ComplianceLabels">
+        <sequence>
+            <module name="Magento_Catalog"/>
+        </sequence>
+    </module>
+</config>

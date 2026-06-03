@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Sbs_ComplianceLabels Magento 2 Extension
+ *
+ * @category  Sbs
+ * @package   Sbs_ComplianceLabels
+ * @author    Thomas Winkler <t.winkler.priv@gmail.com>
+ * @copyright 2026 SBS
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_layout.xsd">
+    <head>
+        <css src="Sbs_ComplianceLabels::css/compliance-labels.css"/>
+    </head>
+    <body>
+        <referenceContainer name="product.info.main">
+            <block class="Sbs\ComplianceLabels\Block\Product\View\Labels" 
+                   name="sbs.compliance.labels" 
+                   template="Sbs_ComplianceLabels::product/view/compliance_labels.phtml" 
+                   after="product.info.price" />
+        </referenceContainer>
+    </body>
+</page>
