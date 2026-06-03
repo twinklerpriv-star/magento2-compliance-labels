@@ -20,7 +20,7 @@ class Labels extends Template
     /**
      * @var Registry
      */
-    protected $registry;
+    private $registry;
 
     /**
      * @param Context $context
@@ -41,7 +41,7 @@ class Labels extends Template
      *
      * @return Product|null
      */
-    public function getProduct()
+    public function getProduct(): ?Product
     {
         return $this->registry->registry('current_product');
     }
@@ -51,7 +51,7 @@ class Labels extends Template
      *
      * @return int
      */
-    public function getWarrantyYears()
+    public function getWarrantyYears(): int
     {
         $product = $this->getProduct();
         if ($product) {
@@ -65,7 +65,7 @@ class Labels extends Template
      *
      * @return string
      */
-    public function getManufacturerName()
+    public function getManufacturerName(): string
     {
         $product = $this->getProduct();
         if ($product) {
@@ -83,7 +83,7 @@ class Labels extends Template
      *
      * @return string
      */
-    public function getProductModel()
+    public function getProductModel(): string
     {
         $product = $this->getProduct();
         if ($product) {

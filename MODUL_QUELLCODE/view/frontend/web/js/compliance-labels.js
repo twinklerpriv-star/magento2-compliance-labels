@@ -17,7 +17,8 @@ define([
         var $trigger = $element.find('.garan-trigger');
 
         $trigger.on('click', function () {
-            $element.toggleClass('active');
+            var isActive = $element.toggleClass('active').hasClass('active');
+            $trigger.attr('aria-expanded', isActive ? 'true' : 'false');
         });
     };
 });
