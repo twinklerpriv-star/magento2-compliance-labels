@@ -1,28 +1,11 @@
-**Datum:** 2026-06-03  
-**Version:** 1.1  
-**Status:** In Arbeit  
+# Task-Liste: Spaltenerweiterung in den Lieferanten-Exceldateien
 
-# Fortschritt: Gewährleistungs- und Garantielabel 2026
-
-Hier wird der Fortschritt der Programmierung des Magento 2-Moduls `Sbs_ComplianceLabels` dokumentiert.
-
-## Checkliste zur Umsetzung
-
-### 1. Struktur & Registrierung (Magento-Grundgerüst)
-- [x] `registration.php` erstellen
-- [x] `etc/module.xml` erstellen
-- [x] `Block/Product/View/Labels.php` Block-Klasse programmieren
-
-### 2. Frontend-Injektion (Layout & Template)
-- [x] `view/frontend/layout/catalog_product_view.xml` Layout-XML anlegen
-- [x] `view/frontend/templates/product/view/compliance_labels.phtml` PHP/HTML-Template erstellen (inkl. Translation-Wrapper)
-
-### 3. Styling & Interaktion (CSS & JS)
-- [x] `view/frontend/web/css/compliance-labels.css` erstellen (EU-Farben: `#003399` / `#FFED00`, Inter-Schriftart)
-- [x] `view/frontend/web/js/compliance-labels.js` programmieren (Klassen-basiertes Toggling)
-
-### 4. Verifizierung & Deployment
-- [x] Lokale Syntaxprüfungen und XML-Wohlgeformtheitsprüfung (Python) durchgeführt
-- [x] Zip-Archiv für das Deployment durch weboffice vorbereiten
-- [ ] Testsystem-Deployment und QS-Abnahme
-
+- `[x]` Update des German splitting script `split_articles_by_supplier.py`
+- `[x]` Update des English splitting script `split_articles_by_supplier_en.py`
+- `[x]` Generierung der erweiterten Excel-Dateien für alle 104 Lieferanten (Deutsch)
+- `[x]` Generierung der erweiterten Excel-Dateien für alle 104 Lieferanten (Englisch)
+- `[x]` Update des Validierungsskripts `verify_excel.py` für die neuen 9 Spalten
+- `[x]` Validierung aller 208 generierten Dateien (0 Fehler)
+- `[x]` Hinzufügen von Eingabehilfe-Prompts für alle Eingabespalten (E bis I)
+- `[x]` Dokumentation der Excel-Struktur in `04_Excel_Datenstruktur_und_Validierung.md`
+- `[x]` Dokumentation im Walkthrough und in der ToDo-Liste

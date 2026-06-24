@@ -1,8 +1,10 @@
 
 
-**Datum:** 2026-06-03  
-**Version:** 1.1  
+**Datum:** 2026-06-10  
+**Version:** 1.4  
 **Status:** Freigegeben  
+
+
 
 # WKO-Richtlinien & Webshop-Vorgaben: Gewährleistung & Garantielabel 2026
 
@@ -21,8 +23,12 @@ Die gesetzliche Gewährleistung (Mindestdauer 2 Jahre) muss künftig durch eine 
 * **Farbpflicht:** Im Online-Shop muss zwingend die farbige EU-Vorlage verwendet werden (Blau/Gelb/Schwarz/Weiß). Schwarz-Weiß-Darstellungen sind nur für gedruckte Angebote oder Offline-Medien zulässig.
 * **Inhaltsintegrität:** Der Text und das Layout sind durch die Durchführungsverordnung (EU) 2025/1960 rechtlich starr vorgegeben und dürfen gestalterisch nicht verändert werden.
 * **QR-Code:** Der im Label integrierte QR-Code muss auf das offizielle EU-Portal *„Your Europe“* verlinken.
+* **Referenz-Grafik (im Projektordner):** Das offizielle Poster der WKO ist im Projektordner unter [WKO_Gewaehrleistung_Notice_Poster.png](file:///C:/Users/thomas.winkler/Desktop/Projekte/Google%20Antigravity/ELEKTROPEPI/GEWAEHRLEISTUNG_GARANTIELABEL/WKO_Gewaehrleistung_Notice_Poster.png) gespeichert.
+* **Referenz-Grafik (im Modul-Unterverzeichnis):** Als Teil des Moduls ist die Grafik zudem im Unterverzeichnis unter [WKO_Gewaehrleistung_Notice_Poster.png](file:///C:/Users/thomas.winkler/Desktop/Projekte/Google%20Antigravity/ELEKTROPEPI/GEWAEHRLEISTUNG_GARANTIELABEL/MODUL_QUELLCODE/view/frontend/web/images/WKO_Gewaehrleistung_Notice_Poster.png) abgelegt.
+
 
 ---
+
 
 ## 2. Freiwillige Herstellergarantien („Harmonised Label“)
 
@@ -39,8 +45,11 @@ Dieses Label ist nur dann verpflichtend einzubinden, wenn ein Hersteller eine fr
   * Berührung mit der Maus (Mouse-over / Hover)
   * Touchscreen-Gesten (z. B. Auseinanderziehen)
 * **Grafische Pflichtelemente:** Das Label muss zwingend den Titel **„GARAN“** sowie das Kalendersymbol (mit 365-Tage-Referenz) und das grüne Häkchen-Symbol enthalten.
+* **Referenz-Grafik (im Projektordner):** Das offizielle GARAN-Garantielabel der WKO ist im Projektordner unter [WKO_Garantie_GARAN_Label.png](file:///C:/Users/thomas.winkler/Desktop/Projekte/Google%20Antigravity/ELEKTROPEPI/GEWAEHRLEISTUNG_GARANTIELABEL/WKO_Garantie_GARAN_Label.png) gespeichert.
+* **Referenz-Grafik (im Modul-Unterverzeichnis):** Als Teil des Moduls ist die Grafik zudem im Unterverzeichnis unter [WKO_Garantie_GARAN_Label.png](file:///C:/Users/thomas.winkler/Desktop/Projekte/Google%20Antigravity/ELEKTROPEPI/GEWAEHRLEISTUNG_GARANTIELABEL/MODUL_QUELLCODE/view/frontend/web/images/WKO_Garantie_GARAN_Label.png) abgelegt.
 
 ---
+
 
 ## 3. Nachhaltigkeits- & Update-Pflichtangaben
 
