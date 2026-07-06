@@ -33,8 +33,8 @@
 ## 2. Offene To-Dos (Agiles Backlog)
 
 ### ▶ Aktueller Fokus: Abstimmung mit Einkauf & Lieferanten
-*   [x] **Audit der Markant/Globus-E-Mail zur (EU) 2025/1960 (06.07.2026):**
-    Rechtliche und technische Prüfung der Systemvorgaben des Großhändlers Globus/Markant und Abgleich mit dem Elektropepi-Vorgehen.
+*   [ ] **Besprechung der Markant/Globus-E-Mail im Jour Fixe (Thomas & Lisi):**
+    Vorlage der E-Mail bei der Geschäftsführung zur Entscheidung, ob eine genauere rechtliche Analyse vorgenommen werden soll.
 *   *Warten auf Rücklauf der Lieferanten-Excel-Dateien vom Einkauf.*
 
 ### ⏳ Zukünftige Etappen (Zur Orientierung - Aktuell on hold)

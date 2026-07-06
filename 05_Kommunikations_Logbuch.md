@@ -18,5 +18,5 @@ Dieses Logbuch dokumentiert alle wichtigen Abstimmungen, Entscheidungen und E-Ma
 ## 06.07.2026: Eingang der Markant/Globus-E-Mail (Weiterleitung durch Andreas Wiesner)
 *   **Beteiligte:** Andreas Wiesner (SBS), Thomas Winkler (SBS)
 *   **Inhalt:** Weiterleitung einer PIM-System-Information des Dienstleisters Markant bezüglich der Anforderungen des Handelspartners Globus Fachmärkte für die Umsetzung der (EU) 2025/1960.
-*   **Entscheidung / Nächster Schritt:** Thomas Winkler führt eine rechtliche und technische Detailprüfung der E-Mail-Inhalte durch, um festzustellen, ob Anpassungsbedarf für das Elektropepi-Projekt besteht und ob eigene manuelle Schritte notwendig sind.
+*   **Entscheidung / Nächster Schritt:** Das Thema und die E-Mail werden auf das Jour Fixe mit der Geschäftsführung (Lisi) vertagt. Dort wird entschieden, ob eine genauere rechtliche Analyse vorgenommen werden soll.
 
