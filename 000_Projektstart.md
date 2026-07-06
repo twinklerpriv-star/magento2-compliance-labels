@@ -1,35 +1,21 @@
-# System-Initialisierung (Für die KI - Projekt: Elektropepi Gewährleistungs- & Garantielabel)
+# System-Initialisierung (Für die KI - Projekt: ELEKTROPEPI (GEWAEHRLEISTUNG_GARANTIELABEL))
 
 **WICHTIG AN DIE KI:** 
-Bevor du mit der Bearbeitung in diesem Workspace beginnst, bist du **strikt angewiesen**, die folgenden zentralen Leitdokumente vollständig durchzulesen und zu verinnerlichen. Da sich diese Dokumente im übergeordneten Verzeichnis befinden, verwende die absoluten Links:
+Bevor du mit der Bearbeitung in diesem Workspace beginnst, bist du **strikt angewiesen**, das neue **On-Demand-Ladeverfahren** anzuwenden, da sich das Spezialwissen im übergeordneten Verzeichnis befindet:
 
-1. **[000_Projektstart.md](file:///c:/Users/thomas.winkler/Desktop/Projekte/Google%20Antigravity/000_Projektstart.md)**
-   *(Enthält den globalen Überblick über alle Leitdokumente.)*
-
-2. **[00_KI_Zusammenarbeit_Regeln.md](file:///c:/Users/thomas.winkler/Desktop/Projekte/Google%20Antigravity/00_KI_Zusammenarbeit_Regeln.md)**
-   *(Definiert deine Rolle als kritischer IT-Consultant, Sparringspartner und die Kommunikationsregeln.)*
+1. **`00_KI_Skill_Verzeichnis.md` einlesen:**
+   Lies als allererstes das globale Verzeichnis ein (Link: [00_KI_Skill_Verzeichnis.md](file:///c:/Users/thomas.winkler/Desktop/Projekte/Google%20Antigravity/00_KI_Skill_Verzeichnis.md)). Es dient dir als Routing-Tabelle für dein Spezialwissen.
    
-3. **[00_Agiles_Projektmanagement_Manifest.md](file:///c:/Users/thomas.winkler/Desktop/Projekte/Google%20Antigravity/00_Agiles_Projektmanagement_Manifest.md)**
-   *(Definiert die Arbeitsweise: MVP-Fokus, Fail Fast, Effizienz vor Bürokratie.)*
+2. **On-Demand-Ladeprinzip:**
+   Lade detaillierte Leitfäden (wie `00_KI_Skill_Word_Export.md` oder `00_KI_Wissensspeicher.md`) **ausnahmslos erst dann**, wenn eine konkrete Aufgabe dies anfordert oder ein entsprechender Trigger aus dem Verzeichnis erfüllt ist. Halte dein Kontextfenster sauber!
    
-4. **[00_Dokumentations_Standard.md](file:///c:/Users/thomas.winkler/Desktop/Projekte/Google%20Antigravity/00_Dokumentations_Standard.md)**
-   *(Definiert den zwingenden strukturellen Aufbau für Projektbeschreibungen, ToDo-Listen und Kommunikations-Logbücher.)*
-
-5. **[00_Multiprojekt_Dashboard.md](file:///c:/Users/thomas.winkler/Desktop/Projekte/Google%20Antigravity/00_Multiprojekt_Dashboard.md)**
-   *(Bietet den aktuellen Gesamtüberblick und Status aller laufenden großen SBS-Projekte zur schnellen Kontextualisierung.)*
-
-6. **[00_KI_Wissensspeicher.md](file:///c:/Users/thomas.winkler/Desktop/Projekte/Google%20Antigravity/00_KI_Wissensspeicher.md)**
-   *(Speichert projektübergreifende technische Fails und Lektionen.)*
-
-7. **[00_Konzernstruktur.md](file:///c:/Users/thomas.winkler/Desktop/Projekte/Google%20Antigravity/00_Konzernstruktur.md)**
-   *(Beschreibt das Mutter-Tochter-Verhältnis Limmert/SBS.)*
-
-8. **[s_laufwerk_sicherheitsrichtlinie.md](file:///c:/Users/thomas.winkler/Desktop/Projekte/Google%20Antigravity/s_laufwerk_sicherheitsrichtlinie.md)**
-   *(Definiert die Sicherheitsrichtlinien und Zugriffsrechte für das Netzlaufwerk S:.)*
-
-9. **[02_Kontext_und_Bewertungen.md](file:///c:/Users/thomas.winkler/Desktop/Projekte/Google%20Antigravity/ELEKTROPEPI/GEWAEHRLEISTUNG_GARANTIELABEL/02_Kontext_und_Bewertungen.md)** (projektspezifisch)
-   *(Enthält projektspezifische strategische Einschätzungen für dieses Projekt.)*
+3. **Einstiegs-Dokumente für den Sitzungsstart in ELEKTROPEPI (GEWAEHRLEISTUNG_GARANTIELABEL):**
+   Lade für die erste Orientierung und Statusbestimmung ausschließlich:
+   - **`00_Multiprojekt_Dashboard.md`** (Link: [Dashboard](file:///c:/Users/thomas.winkler/Desktop/Projekte/Google%20Antigravity/00_Multiprojekt_Dashboard.md)) -> *Achtung:* Da du dich in einem Teilprojekt-Unterordner befindest, gib in deiner ersten Antwort **ausschließlich** den Statusbericht für das Projekt **ELEKTROPEPI (GEWAEHRLEISTUNG_GARANTIELABEL)** aus und ignoriere alle anderen Projekte!
+   - **`00_KI_Zusammenarbeit_Regeln.md`** (Link: [Regeln](file:///c:/Users/thomas.winkler/Desktop/Projekte/Google%20Antigravity/00_KI_Zusammenarbeit_Regeln.md)) -> Definiert deine Rolle als Antigravity und die Kooperationsregeln.
+   - **`02_Kontext_und_Bewertungen.md`** (Link: [Lokale Risiken/Rationale](file:///c:/Users/thomas.winkler/Desktop/Projekte/Google%20Antigravity/ELEKTROPEPI/GEWAEHRLEISTUNG_GARANTIELABEL/02_Kontext_und_Bewertungen.md) - projektspezifisch).
+   - Die lokale **`task.md`** oder ToDo-Liste des Projekts (sofern im Ordner vorhanden).
 
 **Handlungsanweisung:**
-Bestätige nach dem Lesen dieser Dokumente kurz, dass du die SBS-Projekt-Standards, die agile Arbeitsweise, die Konzernstruktur und deine Rolle verstanden hast.
+Bestätige nach dem Einlesen des Verzeichnisses und der Einstiegs-Dokumente kurz, dass du deine Rolle als Antigravity verstanden hast und das dynamische On-Demand-Ladeverhalten befolgst. Gib danach den initialen, fokussierten Statusbericht für das Projekt **ELEKTROPEPI (GEWAEHRLEISTUNG_GARANTIELABEL)** aus.
 Erst danach fährst du mit der Bearbeitung des aktuellen User-Requests fort.

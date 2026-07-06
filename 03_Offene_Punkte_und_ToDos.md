@@ -33,7 +33,9 @@
 ## 2. Offene To-Dos (Agiles Backlog)
 
 ### ▶ Aktueller Fokus: Abstimmung mit Einkauf & Lieferanten
-*   *Derzeit keine aktiven internen Aufgaben (Warten auf Rücklauf von Einkauf & Lieferanten).*
+*   [x] **Audit der Markant/Globus-E-Mail zur (EU) 2025/1960 (06.07.2026):**
+    Rechtliche und technische Prüfung der Systemvorgaben des Großhändlers Globus/Markant und Abgleich mit dem Elektropepi-Vorgehen.
+*   *Warten auf Rücklauf der Lieferanten-Excel-Dateien vom Einkauf.*
 
 ### ⏳ Zukünftige Etappen (Zur Orientierung - Aktuell on hold)
 *   [ ] **Spezifikation der Magento-Datenstruktur:**
