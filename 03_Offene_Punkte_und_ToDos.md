@@ -36,7 +36,8 @@
 *   [x] **Besprechung der Markant/Globus-E-Mail im Jour Fixe (07.07.2026):**
     Ergebnisse: Vertagt / Fokus liegt zunächst auf der Strukturierung der Lieferanten-Garantieabfrage.
 *   [ ] **Finale Spaltenabstimmung mit Helmut Nobis:**
-    Besprechung der [Spaltenanalyse_Lieferantenabfrage.xlsx](file:///C:/Users/thomas.winkler/Desktop/Projekte/Google%20Antigravity/ELEKTROPEPI/GEWAEHRLEISTUNG_GARANTIELABEL/Spaltenanalyse_Lieferantenabfrage.xlsx) zur Festlegung der abzufragenden Spalten (E-Mail gesendet am 09.07.2026).
+    Besprechung der [Spaltenanalyse_Lieferantenabfrage.xlsx](file:///C:/Users/thomas.winkler/Desktop/Projekte/Google%20Antigravity/ELEKTROPEPI/GEWAEHRLEISTUNG_GARANTIELABEL/Spaltenanalyse_Lieferantenabfrage.xlsx) zur Festlegung der abzufragenden Spalten. **Termin: Montag, 13.07.2026 um 10:00 Uhr** (im Büro von Thomas Winkler).
+
 *   [ ] **Lieferantenauswahl durch Einkauf:**
     Helmut Nobis um Erstellung einer Auswahl jener Lieferanten bitten, die tatsächlich angeschrieben werden sollen.
 *   [ ] **Umstrukturierung der Excel-Vorlagen (nach Freigabe):**
