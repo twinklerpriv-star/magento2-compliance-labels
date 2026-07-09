@@ -20,3 +20,17 @@ Dieses Logbuch dokumentiert alle wichtigen Abstimmungen, Entscheidungen und E-Ma
 *   **Inhalt:** Weiterleitung einer PIM-System-Information des Dienstleisters Markant bezüglich der Anforderungen des Handelspartners Globus Fachmärkte für die Umsetzung der (EU) 2025/1960.
 *   **Entscheidung / Nächster Schritt:** Das Thema und die E-Mail werden auf das Jour Fixe mit der Geschäftsführung (Lisi) vertagt. Dort wird entschieden, ob eine genauere rechtliche Analyse vorgenommen werden soll.
 
+## 07.07.2026: Jour Fixe Thomas Winkler & Elisabeth Platzl
+*   **Beteiligte:** Thomas Winkler (SBS), Elisabeth Platzl (Geschäftsführung, SBS)
+*   **Beschlüsse & Vereinbarungen:**
+    *   Verwendung einer **leeren Excel-Liste** mit Spaltenbeschriftungen (keine vorbefüllten Artikellisten mehr) zur Übermittlung an Lieferanten.
+    *   Hinzufügen eines zusätzlichen Tabellenblatts **„Beispiel“** mit einem ausgefüllten Musterartikel (Spalten als Zeilen dargestellt zur besseren Lesbarkeit).
+    *   Helmut Nobis soll eine Auswahl der anzuschreibenden Lieferanten erstellen.
+    *   *Offen:* Wer führt den Versand durch? Vorschlag: Thomas Winkler übernimmt den Versand selbst, da er die Listen erstellt hat (Informationen in einer Hand).
+
+## 09.07.2026: E-Mail an Helmut Nobis mit Spaltenanalyse
+*   **Beteiligte:** Thomas Winkler (SBS), Helmut Nobis (Einkaufsleitung, SBS), Elisabeth Platzl (Geschäftsführung, SBS, in CC)
+*   **Inhalt:** Thomas Winkler übersendet die neu erstellte [Spaltenanalyse_Lieferantenabfrage.xlsx](file:///C:/Users/thomas.winkler/Desktop/Projekte/Google%20Antigravity/ELEKTROPEPI/GEWAEHRLEISTUNG_GARANTIELABEL/Spaltenanalyse_Lieferantenabfrage.xlsx) an Helmut Nobis. Sie dient als Diskussions- und Entscheidungsgrundlage für ein anstehendes Meeting über die Spaltenstruktur der Lieferantenabfrage.
+*   **Entscheidung / Nächster Schritt:** Vereinbarung eines kurzen Abstimmungstermins (ca. 15 Min.) zur finalen Festlegung der Abfragespalten mit Helmut Nobis.
+
+
