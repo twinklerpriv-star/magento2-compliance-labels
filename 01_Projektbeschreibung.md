@@ -65,7 +65,8 @@ Für die Verteilung und Anzeige des Garantielabels wurden zwei wesentliche Kanä
   Die Excel-Datei `alle gelisteten Artikel - Stand 24.06.2026.xlsx` (abgelegt in [Meilenstein 1/](file:///C:/Users/thomas.winkler/Desktop/Projekte/Google%20Antigravity/ELEKTROPEPI/GEWAEHRLEISTUNG_GARANTIELABEL/Meilenstein%201)) diente als Rohdatenbasis zur Generierung der lieferantenspezifischen Teillisten.
 * **Rechts- und Verordnungsgrundlagen:**
   * Das WKO-Referenzdokument [07_WKO_Richtlinien_Garantie_Details.md](file:///C:/Users/thomas.winkler/Desktop/Projekte/Google%20Antigravity/ELEKTROPEPI/GEWAEHRLEISTUNG_GARANTIELABEL/Meilenstein%201/07_WKO_Richtlinien_Garantie_Details.md).
-  * Offizielle Leitlinien der Wirtschaftskammer Österreich (WKO).
+  * Offizielle WKO-Informationsseite: [WKO - E-Commerce: Widerrufsbutton, Gewährleistung & Garantielabel](https://www.wko.at/handeldigital/e-commerce-widerrufsbutton-gewaehrleistung-garantielabel#heading_aufzeichnung_webinar__last_call_Widerrufsbutton__)
+  * WKO-Detailseiten zu [Gewährleistung](https://www.wko.at/handel/elektro-einrichtungsfachhandel/informationspflichten-garantien-gewaehrleistung-haendle#heading_gewaehrleistung___was_muss_mitgeteilt_werden_) und [Haltbarkeitsgarantie](https://www.wko.at/handel/elektro-einrichtungsfachhandel/informationspflichten-garantien-gewaehrleistung-haendle#heading_haltbarkeitsgarantie___was_muss_mitgeteilt_werden_).
   * Durchführungsverordnung (EU) 2025/1960 der Kommission (Anhang I & II).
 * **Externe Tool-Unterstützung:**
   * Der Online-Dienstleister **[garan-label.com](https://garan-label.com/)** zur automatisierten Einzel- und Massengenerierung von EU-konformen Label-Grafiken für den m.PIM- und Magento-Import.
