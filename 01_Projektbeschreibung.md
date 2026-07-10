@@ -1,6 +1,6 @@
 # Projektbeschreibung: Gewährleistungs- und Garantielabel 2026 (EU-Richtlinie & VerbRÄG)
 
-**Datum:** 10.07.2026 | **Version:** 1.0 | **Status:** In Bearbeitung
+**Datum:** 10.07.2026 | **Version:** 1.1 | **Status:** In Bearbeitung
 
 ---
 
@@ -60,9 +60,11 @@ Für die Verteilung und Anzeige des Garantielabels wurden zwei wesentliche Kanä
 ## 5. Projektdaten & Quellen
 
 * **Datenbasis Lieferantenabfrage:**
-  Die Excel-Vorlage [Lieferantenabfrage_Template.xlsx](file:///C:/Users/thomas.winkler/Desktop/Projekte/Google%20Antigravity/ELEKTROPEPI/GEWAEHRLEISTUNG_GARANTIELABEL/Lieferantenabfrage_Template.xlsx) dient als Muster für die Abfrage. Sie enthält ein ausgefülltes Beispielblatt (Spalten als Zeilen in Spalte A/B) und die leere Erfassungsliste im blauen Händler-Design.
+  Die Excel-Vorlage [Lieferantenabfrage_Template.xlsx](file:///C:/Users/thomas.winkler/Desktop/Projekte/Google%20Antigravity/ELEKTROPEPI/GEWAEHRLEISTUNG_GARANTIELABEL/Meilenstein%201/Lieferantenabfrage_Template.xlsx) dient als Muster für die Abfrage. Sie enthält ein ausgefülltes Beispielblatt (Spalten als Zeilen in Spalte A/B) und die leere Erfassungsliste im blauen Händler-Design.
+* **Gesamtartikelliste (Datenbasis für Lieferantensplittung):**
+  Die Excel-Datei `alle gelisteten Artikel - Stand 24.06.2026.xlsx` (abgelegt in [Meilenstein 1/](file:///C:/Users/thomas.winkler/Desktop/Projekte/Google%20Antigravity/ELEKTROPEPI/GEWAEHRLEISTUNG_GARANTIELABEL/Meilenstein%201)) diente als Rohdatenbasis zur Generierung der lieferantenspezifischen Teillisten.
 * **Rechts- und Verordnungsgrundlagen:**
-  * Das WKO-Referenzdokument [07_WKO_Richtlinien_Garantie_Details.md](file:///c:/Users/thomas.winkler/Desktop/Projekte/Google%20Antigravity/ELEKTROPEPI/GEWAEHRLEISTUNG_GARANTIELABEL/07_WKO_Richtlinien_Garantie_Details.md).
+  * Das WKO-Referenzdokument [07_WKO_Richtlinien_Garantie_Details.md](file:///C:/Users/thomas.winkler/Desktop/Projekte/Google%20Antigravity/ELEKTROPEPI/GEWAEHRLEISTUNG_GARANTIELABEL/Meilenstein%201/07_WKO_Richtlinien_Garantie_Details.md).
   * Offizielle Leitlinien der Wirtschaftskammer Österreich (WKO).
   * Durchführungsverordnung (EU) 2025/1960 der Kommission (Anhang I & II).
 * **Externe Tool-Unterstützung:**
@@ -74,14 +76,14 @@ Für die Verteilung und Anzeige des Garantielabels wurden zwei wesentliche Kanä
 
 *   **Meilenstein 1: Projektvorbereitung & Lieferanten-Abfragekonzept (Q3/2026)**
     *   *Ziel:* Definition der rechtlichen Grundlagen (WKO), Erstellung der Abfragevorlage (Excel-Template) und Abstimmung der Spaltenstruktur mit dem Einkauf.
-    *   *Ergebnis:* Freigegebene [Lieferantenabfrage_Template.xlsx](file:///C:/Users/thomas.winkler/Desktop/Projekte/Google%20Antigravity/ELEKTROPEPI/GEWAEHRLEISTUNG_GARANTIELABEL/Lieferantenabfrage_Template.xlsx) und Spaltenanalyse.
+    *   *Ergebnis:* Freigegebene [Lieferantenabfrage_Template.xlsx](file:///C:/Users/thomas.winkler/Desktop/Projekte/Google%20Antigravity/ELEKTROPEPI/GEWAEHRLEISTUNG_GARANTIELABEL/Meilenstein%201/Lieferantenabfrage_Template.xlsx) und [Spaltenanalyse_Lieferantenabfrage.xlsx](file:///C:/Users/thomas.winkler/Desktop/Projekte/Google%20Antigravity/ELEKTROPEPI/GEWAEHRLEISTUNG_GARANTIELABEL/Meilenstein%201/Spaltenanalyse_Lieferantenabfrage.xlsx).
     *   *Status (10.07.2026):* In Bearbeitung. Spaltenanalyse und Vorlage sind erstellt. Der Abstimmungstermin mit Helmut Nobis zur finalen Spaltenfreigabe ist für **Montag, 13.07.2026 um 10:00 Uhr** vereinbart.
 *   **Meilenstein 2: Datenerhebung & Lieferantenauswahl (Q3/2026)**
     *   *Ziel:* Erstellung einer Lieferantenauswahl durch Helmut Nobis (Einkauf) und anschließende Aussendung der leeren Excel-Tabellen zur Garantieabfrage (Versand erfolgt durch Thomas Winkler).
-    *   *Ergebnis:* Rücklauf der ausgefüllten Erfassungsdateien (Garantiejahre, Links zu Bedingungen, Kriterien-Bestätigung) von allen ausgewählten Lieferanten.
+    *   *Ergebnis:* Rücklauf der ausgefüllten Erfassungsdateien (Garantiejahre, Links zu Bedingungen, Kriterien-Bestätigung) von allen ausgewählten Lieferanten (abgelegt in [Meilenstein 2/Lieferanten](file:///C:/Users/thomas.winkler/Desktop/Projekte/Google%20Antigravity/ELEKTROPEPI/GEWAEHRLEISTUNG_GARANTIELABEL/Meilenstein%202/Lieferanten)).
 *   **Meilenstein 3: Technische Integration & Magento B2C-Rollout (Q3-Q4/2026)**
     *   *Ziel:* Datenimport der erhobenen Lieferantendaten in das Magento-System und Entwicklung der Frontend-Anzeige für den Elektropepi-Webshop (dynamische & geschachtelte Darstellung des Labels).
-    *   *Ergebnis:* Ein voll funktionsfähiges, getestetes Magento-Modul zur gesetzeskonformen B2C-Etikettenausgabe.
+    *   *Ergebnis:* Ein voll funktionsfähiges, getestetes Magento-Modul zur gesetzeskonformen B2C-Etikettenausgabe (Ressourcen in [Meilenstein 3/](file:///C:/Users/thomas.winkler/Desktop/Projekte/Google%20Antigravity/ELEKTROPEPI/GEWAEHRLEISTUNG_GARANTIELABEL/Meilenstein%203)).
 *   **Meilenstein 4: B2B-Datenpflege & m.PIM-Abgleich (Q4/2026)**
     *   *Ziel:* Abgleich der betroffenen B2B-Artikel, Generierung der Label-Grafiken (z. B. via garan-label.com) und Befüllung des m.PIM-Systems (Stammdaten + PDF-Garantiebedingungen) für Globus, Hornbach und weitere Handelspartner.
-    *   *Ergebnis:* Vollständige Absicherung unseres B2B-Vertriebs durch Bereitstellung aller geforderten Datenfeeds und Printvorlagen in den zentralen Händlersystemen.
+    *   *Ergebnis:* Vollständige Absicherung unseres B2B-Vertriebs durch Bereitstellung aller geforderten Datenfeeds und Printvorlagen in den zentralen Händlersystemen (Ablage in [Meilenstein 4/](file:///C:/Users/thomas.winkler/Desktop/Projekte/Google%20Antigravity/ELEKTROPEPI/GEWAEHRLEISTUNG_GARANTIELABEL/Meilenstein%204)).
