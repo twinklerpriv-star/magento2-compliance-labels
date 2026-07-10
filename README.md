@@ -1,90 +1,34 @@
-# Sbs_ComplianceLabels (Magento 2 Extension)
+# Gewährleistungs- und Garantielabel 2026 (VerbRÄG Compliance)
 
-Dieses Magento 2-Modul implementiert die ab dem **27. September 2026** in Kraft tretenden EU-Verbraucherschutzrichtlinien (VerbRÄG 2026 / EU 2024/825) zur harmonisierten Kennzeichnung von gesetzlichen Gewährleistungen und freiwilligen Herstellergarantien (durability labels) im Webshop von **Elektropepi**.
+Dieses Projekt dient der technischen und organisatorischen Umsetzung der neuen EU-Verbraucherschutzrichtlinien (Durchführungsverordnung (EU) 2025/1960 und VerbRÄG 2026) für SBS Austria (Elektropepi).
 
----
-
-## 🛠️ Features
-
-1. **Gesetzliches Gewährleistungs-Poster (Statutory Notice Poster):**
-   * Permanenter, nicht einklappbarer Info-Block auf der Produktdetailseite.
-   * Entspricht exakt den WKO-Farbvorgaben (Blau: `#003399`, Gelb: `#FFED00`).
-   * Enthält den offiziellen, scannbaren QR-Code, der direkt auf das EU-Portal *Your Europe* verlinkt.
-2. **Freiwilliges Hersteller-Garantielabel (GARAN Durability Label):**
-   * Erscheint dynamisch nur bei Artikeln mit einer Herstellergarantie von **mehr als 2 Jahren**.
-   * Einklappbar per JavaScript-Toggle (benutzerfreundlich für Mobilgeräte).
-   * Zeigt dynamisch Marke, Modell und Garantiedauer an.
-3. **Mehrsprachigkeit (i18n):**
-   * Alle Texte laufen über Magentos Übersetzungshelfer (`__('...')`).
-   * Lokalisierungen für Deutschland (`de_DE.csv`), Österreich (`de_AT.csv`) und Englisch (`en_US.csv`) sind im Modul enthalten.
+Ausführliche Details zu den Projektzielen, der Abgrenzung und der zeitlichen Planung finden Sie in der **[01_Projektbeschreibung.md](file:///c:/Users/thomas.winkler/Desktop/Projekte/Google%20Antigravity/ELEKTROPEPI/GEWAEHRLEISTUNG_GARANTIELABEL/01_Projektbeschreibung.md)**.
 
 ---
 
-## 📋 Voraussetzungen (Magento-Attribute)
+## 📁 Repository-Struktur (Meilensteine)
 
-Damit das dynamische **GARAN-Garantielabel** ausgespielt wird, müssen im Magento-Backend folgende Attribute angelegt und beim Produkt gepflegt sein:
+Das Repository ist entsprechend der Projektphasen in vier Meilenstein-Ordner gegliedert:
 
-1. **`manufacturer_warranty_years`** (Eigenschaft: Text oder Dropdown)
-   * *Zweck:* Gibt die Dauer der Herstellergarantie in Jahren an (z. B. `3` oder `5`). 
-   * *Hinweis:* Bei Werten `<=` 2 wird das Garantielabel ausgeblendet (da dies durch die gesetzliche Gewährleistung abgedeckt ist).
-2. **`manufacturer`** (Hersteller-Attribut)
-   * *Zweck:* Wird für das Feld „Brand/Trademark“ auf dem Label ausgelesen.
-3. **`model`** (Modell-Attribut)
-   * *Zweck:* Wird für das Feld „Model identifier“ auf dem Label ausgelesen. Falls nicht vorhanden/gepflegt, erfolgt ein automatischer Fallback auf die Artikelnummer (SKU).
+### 1. 📁 [Meilenstein 1: Projektvorbereitung](file:///C:/Users/thomas.winkler/Desktop/Projekte/Google%20Antigravity/ELEKTROPEPI/GEWAEHRLEISTUNG_GARANTIELABEL/Meilenstein%201)
+*   **Inhalt:** Rechtliche Grundlagen (WKO-Leitlinien), Spezifikation der Excel-Abfragestruktur, Excel-Muster-Template für Lieferanten und die detaillierte Spaltenanalyse.
 
----
+### 2. 📁 [Meilenstein 2: Datenerhebung](file:///C:/Users/thomas.winkler/Desktop/Projekte/Google%20Antigravity/ELEKTROPEPI/GEWAEHRLEISTUNG_GARANTIELABEL/Meilenstein%202)
+*   **Inhalt:** Die Artikellisten der 104 betroffenen Lieferanten, die für die Aussendung der Garantieabfrage vorbereitet sind (Unterordner `Lieferanten/`).
 
-## ⚙️ Installation (Manuell)
+### 3. 📁 [Meilenstein 3: Magento Integration (B2C)](file:///C:/Users/thomas.winkler/Desktop/Projekte/Google%20Antigravity/ELEKTROPEPI/GEWAEHRLEISTUNG_GARANTIELABEL/Meilenstein%203)
+*   **Inhalt:** Der Quellcode der Magento-Extension (`MODUL_QUELLCODE/`), Installationsanleitung (`README.md`), das fertige Zip-Paket für die Agentur und die Testprotokolle.
 
-Das fertige Deployment-Paket liegt als **`Sbs_ComplianceLabels.zip`** im Root-Verzeichnis dieses Repositories.
-
-1. Entpacke das Zip-Archiv.
-2. Kopiere die entpackten Dateien auf dem Webserver in das Verzeichnis:
-   `app/code/Sbs/ComplianceLabels/`
-3. Führe per SSH im Magento-Wurzelverzeichnis folgende Standard-Befehle aus:
-   ```bash
-   php bin/magento setup:upgrade
-   php bin/magento setup:di:compile
-   php bin/magento setup:static-content:deploy
-   php bin/magento cache:clean
-   ```
+### 4. 📁 [Meilenstein 4: B2B-Datenpflege (m.PIM)](file:///C:/Users/thomas.winkler/Desktop/Projekte/Google%20Antigravity/ELEKTROPEPI/GEWAEHRLEISTUNG_GARANTIELABEL/Meilenstein%204)
+*   **Inhalt:** Ablage für Stammdaten-Exporte, CSV-Tabellen und fertige Label-Grafiken für den m.PIM-Abgleich unserer B2B-Handelspartner (z. B. Globus, Hornbach).
 
 ---
 
-## 📁 Projektstruktur
+## 📄 Zentrale Steuerungsdateien
 
-```text
-GEWAEHRLEISTUNG_GARANTIELABEL/
-├── README.md               # Diese Übersicht
-├── Sbs_ComplianceLabels.zip # Das fertige Installationspaket für die Agentur
-├── implementation_plan.md   # Technischer Implementierungsplan
-├── task.md                 # Umsetzungs-Checkliste / Fortschritt
-├── tests.md                # Test- & QS-Protokoll zur Abnahme
-└── MODUL_QUELLCODE/        # Die Magento-Moduldateien
-    ├── registration.php
-    ├── etc/
-    │   └── module.xml
-    ├── Block/
-    │   └── Product/
-    │       └── View/
-    │           └── Labels.php
-    └── view/
-        └── frontend/
-            ├── layout/
-            │   └── catalog_product_view.xml
-            ├── templates/
-            │   └── product/
-            │       └── view/
-            │           └── compliance_labels.phtml
-            └── web/
-                ├── css/
-                │   └── compliance-labels.css
-                └── js/
-                    └── compliance-labels.js
-```
+Die folgenden Dateien liegen direkt im Hauptverzeichnis des Projekts und werden laufend aktualisiert:
 
----
-
-## 📞 Kontakt & Dokumentation
-Entwickelt von **SBS** (Thomas Winkler).  
-Dokumentationen und QS-Pläne liegen im Root-Verzeichnis dieses Repositories vor.
+*   **[01_Projektbeschreibung.md](file:///c:/Users/thomas.winkler/Desktop/Projekte/Google%20Antigravity/ELEKTROPEPI/GEWAEHRLEISTUNG_GARANTIELABEL/01_Projektbeschreibung.md):** Das strategische Fundament des Projekts (Scope, Meilensteine, Ziele).
+*   **[03_Offene_Punkte_und_ToDos.md](file:///c:/Users/thomas.winkler/Desktop/Projekte/Google%20Antigravity/ELEKTROPEPI/GEWAEHRLEISTUNG_GARANTIELABEL/03_Offene_Punkte_und_ToDos.md):** Die agile Aufgabenliste (To-Dos) des Projekts.
+*   **[05_Kommunikations_Logbuch.md](file:///c:/Users/thomas.winkler/Desktop/Projekte/Google%20Antigravity/ELEKTROPEPI/GEWAEHRLEISTUNG_GARANTIELABEL/05_Kommunikations_Logbuch.md):** Protokoll aller Besprechungen, E-Mails und Statusänderungen (neueste Einträge oben).
+*   **[000_Projektstart.md](file:///C:/Users/thomas.winkler/Desktop/Projekte/Google%20Antigravity/ELEKTROPEPI/GEWAEHRLEISTUNG_GARANTIELABEL/000_Projektstart.md):** Technische Initialisierungsdatei für das KI-Sitzungsmanagement.
