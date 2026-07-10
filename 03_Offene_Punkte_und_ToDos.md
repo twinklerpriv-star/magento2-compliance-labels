@@ -45,7 +45,10 @@
 *   *Warten auf Rücklauf der Lieferanten-Excel-Dateien (Zusendung durch Thomas Winkler vorgeschlagen).*
 
 ### ⏳ Zukünftige Etappen (Zur Orientierung - Aktuell on hold)
+*   [ ] **Evaluation des Dienstleisters garan-label.com:**
+    Vergleich der Integrations- und Generierungsoptionen (Massen-Generierung via CSV-Upload für den Magento-Import und m.PIM-Upload vs. API-Schnittstelle) als kosteneffiziente Alternative zur rein internen Entwicklung eines eigenen Magento-Generators.
 *   [ ] **Spezifikation der Magento-Datenstruktur:**
+
     Definition der notwendigen Produkt-Attribute (Garantiejahre, Hersteller, Modellkennung) im Magento-Backend.
 *   [ ] **Datenpflege & Import-Vorbereitung:**
     Strukturierte Erfassung der von Lieferanten übermittelten Garantiedaten zur Vorbereitung des CSV-Imports.

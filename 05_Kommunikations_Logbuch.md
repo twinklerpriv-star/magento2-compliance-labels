@@ -33,5 +33,11 @@ Dieses Logbuch dokumentiert alle wichtigen Abstimmungen, Entscheidungen und E-Ma
 *   **Inhalt:** Thomas Winkler übersendet die neu erstellte [Spaltenanalyse_Lieferantenabfrage.xlsx](file:///C:/Users/thomas.winkler/Desktop/Projekte/Google%20Antigravity/ELEKTROPEPI/GEWAEHRLEISTUNG_GARANTIELABEL/Spaltenanalyse_Lieferantenabfrage.xlsx) an Helmut Nobis. Sie dient als Diskussions- und Entscheidungsgrundlage für ein anstehendes Meeting über die Spaltenstruktur der Lieferantenabfrage.
 *   **Entscheidung / Nächster Schritt:** Termin zur Abstimmung der Spaltenstruktur wurde vereinbart auf **Montag, 13.07.2026 um 10:00 Uhr** im Büroraum von Thomas Winkler.
 
+## 10.07.2026: Statusupdate zur Label-Generierung (Dienstleister-Entdeckung)
+*   **Beteiligte:** Thomas Winkler (SBS)
+*   **Inhalt:** Entdeckung der Online-Plattform **[garan-label.com](https://garan-label.com/)** zur automatisierten Erstellung von EU-konformen Garantielabel-Bildern. Das Tool bietet Einzelgenerierung, CSV-Massen-Upload und eine API-Schnittstelle.
+*   **Entscheidung / Nächster Schritt:** Option als alternative technische Lösung für das Meeting mit Helmut Nobis und Lisi vormerken. Die Kosten (Credit-Modell) müssen gegen die internen Entwicklungskosten für eine eigene Magento-Schnittstelle abgewogen werden.
+
+
 
 
