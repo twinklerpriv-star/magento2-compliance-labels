@@ -2,19 +2,19 @@ import urllib.request
 import urllib.parse
 import json
 import os
+import csv
 
 api_key = "a0eb1419466cef8904285c21a094a99e63708fd59d3f101d8fa1205d275b2396"
 endpoint = "https://api.garan-label.com/api.php"
 
-def test_api(duration, filename):
+def generate_label(brand, model, duration, output_path):
     payload = {
-        "brand": "Adidas",
-        "model": "abc-123456",
+        "brand": brand,
+        "model": model,
         "duration": str(duration),
-        "sandbox": "1"  # Test-Modus mit Wasserzeichen
+        "sandbox": "1"  # Test-Modus mit Wasserzeichen (0 für Echtbetrieb)
     }
     
-    print(f"\n--- Teste API mit Garantiedauer: {duration} Jahre ---")
     data = urllib.parse.urlencode(payload).encode("utf-8")
     req = urllib.request.Request(endpoint, data=data, headers={"X-API-Key": api_key})
     
@@ -23,22 +23,45 @@ def test_api(duration, filename):
             res_data = json.loads(response.read().decode("utf-8"))
             if res_data.get("success"):
                 url = res_data.get("url")
-                print(f"API-Aufruf erfolgreich!")
-                print(f"Image-URL: {url}")
+                print(f"-> Erfolg für {brand} {model} ({duration} Jahre): {url}")
                 # Herunterladen und Speichern des Bildes
-                urllib.request.urlretrieve(url, filename)
-                print(f"Bild erfolgreich gespeichert unter: {filename}")
+                urllib.request.urlretrieve(url, output_path)
+                print(f"   Bild gespeichert unter: {output_path}")
                 return True
             else:
-                print(f"API-Fehlermeldung: {res_data.get('error')}")
+                print(f"-> Fehler für {brand} {model}: {res_data.get('error')}")
                 return False
     except Exception as e:
-        print(f"Verbindungsfehler zur API: {e}")
+        print(f"-> HTTP-Fehler für {brand} {model}: {e}")
         return False
 
+def process_csv(csv_path):
+    print(f"Lese CSV-Datei ein: {csv_path}")
+    if not os.path.exists(csv_path):
+        print(f"Fehler: Datei {csv_path} existiert nicht.")
+        return
+        
+    with open(csv_path, mode='r', encoding='utf-8') as f:
+        reader = csv.DictReader(f)
+        row_count = 0
+        for row in reader:
+            row_count += 1
+            brand = row.get("brand", "").strip()
+            model = row.get("model", "").strip()
+            duration = row.get("duration", "").strip()
+            
+            if not brand or not model or not duration:
+                print(f"Zeile {row_count}: Unvollständige Daten. Überspringe...")
+                continue
+                
+            # Dateinamen aus Marke, Modell und Dauer zusammensetzen (Bereinigung von Sonderzeichen)
+            clean_brand = "".join([c if c.isalnum() else "_" for c in brand])
+            clean_model = "".join([c if c.isalnum() else "_" for c in model])
+            filename = f"label_{clean_brand}_{clean_model}_{duration}Jahre.png"
+            output_path = os.path.join(os.path.dirname(csv_path), filename)
+            
+            generate_label(brand, model, duration, output_path)
+
 if __name__ == "__main__":
-    # Test 1: Gültige Garantiedauer von 3 Jahren (sollte funktionieren)
-    test_api(3, "Meilenstein 4/api_test/label_3_jahre.png")
-    
-    # Test 2: Garantiedauer von 2 Jahren (gesetzliches Minimum - Grenzfallprüfung)
-    test_api(2, "Meilenstein 4/api_test/label_2_jahre.png")
+    csv_file = "Meilenstein 4/api_test/test_products.csv"
+    process_csv(csv_file)
