@@ -54,10 +54,9 @@ def process_csv(csv_path):
                 print(f"Zeile {row_count}: Unvollständige Daten. Überspringe...")
                 continue
                 
-            # Dateinamen aus Marke, Modell und Dauer zusammensetzen (Bereinigung von Sonderzeichen)
-            clean_brand = "".join([c if c.isalnum() else "_" for c in brand])
-            clean_model = "".join([c if c.isalnum() else "_" for c in model])
-            filename = f"label_{clean_brand}_{clean_model}_{duration}Jahre.png"
+            # Dateiname entspricht dem Modellnamen (Bereinigung von unzulässigen Dateizeichen)
+            clean_model = "".join([c if (c.isalnum() or c in ("-", "_", ".")) else "_" for c in model])
+            filename = f"{clean_model}.png"
             output_path = os.path.join(os.path.dirname(csv_path), filename)
             
             generate_label(brand, model, duration, output_path)
