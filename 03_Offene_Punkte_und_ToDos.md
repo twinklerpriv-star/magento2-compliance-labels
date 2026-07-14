@@ -13,9 +13,9 @@
     *   Details zur gesetzlichen Gewährleistung: [WKO - Gewährleistung Details](https://www.wko.at/handel/elektro-einrichtungsfachhandel/informationspflichten-garantien-gewaehrleistung-haendle#heading_gewaehrleistung___was_muss_mitgeteilt_werden_)
     *   Details zur Haltbarkeitsgarantie: [WKO - Haltbarkeitsgarantie Details](https://www.wko.at/handel/elektro-einrichtungsfachhandel/informationspflichten-garantien-gewaehrleistung-haendle#heading_haltbarkeitsgarantie___was_muss_mitgeteilt_werden_)
 *   **Garantieabfrage-Dateivorlagen:**
-    Für die Erhebung der Herstellergarantien bei Lieferanten wurden zwei zweisprachige Excel-Vorlagen erstellt.
-    Die deutsche Vorlage ist unter [garantieabfrage_lieferanten_de.xlsx](file:///C:/Users/thomas.winkler/Desktop/Projekte/Google%20Antigravity/ELEKTROPEPI/GEWAEHRLEISTUNG_GARANTIELABEL/Meilenstein%201/garantieabfrage_lieferanten_de.xlsx) abgelegt.
-    Die englische Vorlage ist unter [warranty_inquiry_suppliers_en.xlsx](file:///C:/Users/thomas.winkler/Desktop/Projekte/Google%20Antigravity/ELEKTROPEPI/GEWAEHRLEISTUNG_GARANTIELABEL/Meilenstein%201/warranty_inquiry_suppliers_en.xlsx) abgelegt.
+    Für die Erhebung der Herstellergarantien bei Lieferanten wurden zwei benutzerfreundliche Excel-Vorlagen mit Beispielblatt erstellt (deutsch/englisch).
+    Die deutsche Vorlage ist unter [Lieferantenabfrage_Template.xlsx](file:///C:/Users/thomas.winkler/Desktop/Projekte/Google%20Antigravity/ELEKTROPEPI/GEWAEHRLEISTUNG_GARANTIELABEL/Meilenstein%201/Lieferantenabfrage_Template.xlsx) abgelegt.
+    Die englische Vorlage ist unter [Lieferantenabfrage_Template_en.xlsx](file:///C:/Users/thomas.winkler/Desktop/Projekte/Google%20Antigravity/ELEKTROPEPI/GEWAEHRLEISTUNG_GARANTIELABEL/Meilenstein%201/Lieferantenabfrage_Template_en.xlsx) abgelegt.
 *   **Lieferantenspezifische Verteilung (Splittung):**
     Die Gesamtartikelliste wurde nach Lieferanten gefiltert und in 104 separate Ordner zerlegt (aktualisiert am 24.06.2026).
     Der Zielpfad ist [Lieferanten](file:///C:/Users/thomas.winkler/Desktop/Projekte/Google%20Antigravity/ELEKTROPEPI/GEWAEHRLEISTUNG_GARANTIELABEL/Meilenstein%202/Lieferanten).
