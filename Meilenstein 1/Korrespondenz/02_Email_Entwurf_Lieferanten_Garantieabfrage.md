@@ -33,7 +33,7 @@ Bitte füllen Sie die leeren Spalten in der Tabelle aus und senden Sie uns die D
 * **Die „Set-Regel“ (Spalte G):** Bitte beachten Sie, dass das Garantielabel nur für Garantien genutzt werden darf, die sich auf das *gesamte* Produkt (Vollgarantie) beziehen. Teilgarantien (z. B. „10 Jahre nur auf den Motor“) oder Garantien, die nicht für alle Teile eines Sets gelten, dürfen nicht als Gesamtlaufzeit angegeben werden.  
   **Handlungsanweisung:**  
   * *Wenn die Garantie für das gesamte Produkt gilt:* Wählen Sie in Spalte G **„Ja“** und tragen Sie die Jahre in Spalte E ein.  
-  * *Wenn es sich um eine Teilgarantie handelt oder Komponenten eines Sets unterschiedliche Laufzeiten haben:* Wählen Sie in Spalte G **„Nein“**. Tragen Sie in Spalte E in diesem Fall nur die Garantiedauer ein, die für die *gesamte* Ware bzw. für *alle* Teile des Sets gilt (oft die Standard-Herstellergarantie von z. B. 2 Jahren).
+  * *Wenn es sich um eine Teilgarantie handelt oder das Produkt aus mehreren Komponenten mit unterschiedlichen Garantiedauern besteht:* Wählen Sie in Spalte G **„Nein“**. Tragen Sie in Spalte E in diesem Fall die **kleinste Garantiedauer** ein, die für alle Komponenten des Produkts gleichermaßen gilt (oft die Standard-Herstellergarantie von z. B. 2 Jahren).
 
 Sollten Sie Fragen zum Ausfüllen der Liste oder zu den neuen gesetzlichen Anforderungen haben, steht Ihnen unser Team gerne zur Verfügung. 
 
@@ -75,7 +75,7 @@ Please fill in the empty columns in the table and return the completed file to u
 * **The "Entire Good" rule (Column G):** Please note that the EU warranty label may only be used for guarantees that cover the *entire* product (full warranty) at no extra cost. Partial warranties (e.g., "10-year warranty on the motor only") or warranties that do not cover all components of a set are not allowed to be displayed as the product's overall warranty period.  
   **Action Required:**  
   * *If the warranty covers the entire product:* Select **"Yes"** in Column G and enter the warranty years in Column E.  
-  * *If it is a partial warranty or components of a set have different warranty periods:* Select **"No"** in Column G. In this case, enter in Column E only the warranty duration that applies to the *entire* product or to *all* components of the set (typically the standard manufacturer warranty of e.g. 2 years).
+  * *If it is a partial warranty or the product consists of multiple components with different warranty periods:* Select **"No"** in Column G. In this case, enter in Column E only the **shortest warranty duration** that applies equally to all components of the product (typically the standard manufacturer warranty of e.g. 2 years).
 
 If you have any questions regarding the Excel sheet or the new legal requirements, please feel free to contact us at any time.
 
