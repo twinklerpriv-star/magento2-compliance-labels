@@ -29,7 +29,7 @@ Bitte füllen Sie die leeren Spalten in der Tabelle aus und senden Sie uns die D
 
 ### Wichtige Hinweise zum Ausfüllen:
 * **Das Blatt „Beispiel“:** In der Excel-Datei finden Sie ein separates Tabellenblatt mit einem bereits ausgefüllten Musterartikel (EcoFlow PowerOcean Batterie). Dort ist zu jeder Spalte genau erklärt, welche Information benötigt wird und warum.
-* **Garantiebedingungen als PDF/Link (Spalte F):** Das Gesetz verlangt, dass wir dem Kunden die Garantiebedingungen auf einem „dauerhaften Datenträger“ zur Verfügung stellen. Bitte tragen Sie daher den direkten Link zum Garantie-PDF auf Ihrer Website ein (kein allgemeiner Link zur Startseite, kein Freitext).
+* **Garantiebedingungen als PDF/Link (Spalte F):** Das Gesetz verlangt, dass wir dem Kunden die Garantiebedingungen auf einem „dauerhaften Datenträger“ zur Verfügung stellen. Bitte tragen Sie daher den direkten Link zum Garantie-PDF auf Ihrer Website ein (kein allgemeiner Link zur Startseite, kein Freitext). **Wichtig bei Zusendung per E-Mail:** Falls Sie keinen Web-Link bereitstellen können, senden Sie uns die Garantieerklärung bitte als PDF-Datei im E-Mail-Anhang mit. Tragen Sie in diesem Fall in Spalte F den **exakten Dateinamen** der PDF-Datei ein (z. B. `herstellergarantie_modell_xyz.pdf`), damit wir das Dokument eindeutig zuordnen können.
 * **Die „Set-Regel“ (Spalte G):** Bitte beachten Sie, dass das Garantielabel nur für Garantien genutzt werden darf, die sich auf das *gesamte* Produkt (Vollgarantie) beziehen. Teilgarantien (z. B. „10 Jahre nur auf den Motor“) oder Garantien, die nicht für alle Teile eines Sets gelten, dürfen nicht als Gesamtlaufzeit angegeben werden.
 
 Sollten Sie Fragen zum Ausfüllen der Liste oder zu den neuen gesetzlichen Anforderungen haben, steht Ihnen unser Team gerne zur Verfügung. 
@@ -68,7 +68,7 @@ Please fill in the empty columns in the table and return the completed file to u
 
 ### Key guidelines for filling in the template:
 * **The "Example" sheet:** The Excel file contains a separate worksheet with a completed sample product (EcoFlow PowerOcean Battery). It explains exactly what information is required for each column and why.
-* **Warranty conditions as PDF/Link (Column F):** The law requires us to provide the warranty terms to the customer on a "durable medium". Please enter the direct URL link to the warranty PDF on your website (no general link to the homepage, no free text).
+* **Warranty conditions as PDF/Link (Column F):** The law requires us to provide the warranty terms to the customer on a "durable medium". Please enter the direct URL link to the warranty PDF on your website (no general link to the homepage, no free text). **Important when sending via email:** If you cannot provide a web link, please send us the warranty declaration as a PDF file in the email attachment. In this case, enter the **exact file name** of the PDF file in Column F (e.g. `manufacturer_warranty_model_xyz.pdf`) so that we can clearly assign the document to the product.
 * **The "Entire Good" rule (Column G):** Please note that the EU warranty label may only be used for guarantees that cover the *entire* product (full warranty) at no extra cost. Partial warranties (e.g., "10-year warranty on the motor only") or warranties that do not cover all components of a set are not allowed to be displayed as the product's overall warranty period.
 
 If you have any questions regarding the Excel sheet or the new legal requirements, please feel free to contact us at any time.
