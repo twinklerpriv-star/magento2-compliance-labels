@@ -43,8 +43,8 @@ def inspect_excel(file_path, sheet_name):
         print(f"  Row {idx}: {row}")
 
 def main():
-    file_path = r"C:\Users\thomas.winkler\Desktop\Projekte\Google Antigravity\ELEKTROPEPI\GEWAEHRLEISTUNG_GARANTIELABEL\alle gelisteten Artikel - Stand 24.06.2026.xlsx"
-    sheet_name = "alle gelisteten Artikel"
+    file_path = r"C:\Users\thomas.winkler\Desktop\Projekte\Google Antigravity\ELEKTROPEPI\GEWAEHRLEISTUNG_GARANTIELABEL\Meilenstein 1\alle gelisteten Artikel - Stand 24.06.2026.xlsx"
+    sheet_name = "Garantiedaten_Erfassung"
     inspect_excel(file_path, sheet_name)
 
 if __name__ == "__main__":
