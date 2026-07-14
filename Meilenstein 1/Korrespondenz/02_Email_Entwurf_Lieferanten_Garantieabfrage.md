@@ -12,7 +12,7 @@ Dieses Dokument enthält die E-Mail-Entwürfe zur Aussendung an unsere Lieferant
 
 Sehr geehrtes Team von [Name des Lieferanten],
 
-wir wenden uns heute mit einem wichtigen gemeinsamen Anliegen an Sie, das unsere zukünftige Zusammenarbeit und die Einhaltung neuer EU-Vorgaben betrifft. 
+wir wenden uns heute mit einem wichtigen gemeinsamen Anliegen an Sie, das unsere zukünftige Zusammenarbeit und die Einhaltung neuer EU-Vorgaben betrifft.
 
 Am **27. September 2026** treten neue gesetzliche Regelungen im Verbraucherschutz in Kraft (EU-Richtlinie 2024/825 zur Stärkung der Verbraucher für den ökologischen Wandel – „EmpCo-Richtlinie“). Diese Vorschriften bringen weitreichende Pflichten für den Handel und für Hersteller mit sich:
 
@@ -22,30 +22,41 @@ Am **27. September 2026** treten neue gesetzliche Regelungen im Verbraucherschut
 Um Abmahnungen und wettbewerbsrechtliche Risiken für uns beide zu vermeiden, müssen wir die Garantielaufzeiten sowie die dazugehörigen Garantiebedingungen lückenlos erfassen.
 
 ### Unsere Bitte an Sie:
-Im Anhang finden Sie die auf Ihr Sortiment abgestimmte Excel-Datei:  
+
+Im Anhang finden Sie die auf Ihr Sortiment abgestimmte Excel-Datei:
+
 📂 **`[Name des Lieferanten]_Garantieabfrage.xlsx`**
 
 Bitte füllen Sie die leeren Spalten in der Tabelle aus und senden Sie uns die Datei bis spätestens **[Datum in 4 Wochen, z. B. 14. August 2026]** ausgefüllt zurück.
 
 ### Wichtige Hinweise zum Ausfüllen:
-* **Das Blatt „Beispiel“:** In der Excel-Datei finden Sie ein separates Tabellenblatt mit einem bereits ausgefüllten Musterartikel (EcoFlow PowerOcean Batterie). Dort ist zu jeder Spalte genau erklärt, welche Information benötigt wird und warum.
-* **Garantiebedingungen als PDF/Link (Spalte F):** Das Gesetz verlangt, dass wir dem Kunden die Garantiebedingungen auf einem „dauerhaften Datenträger“ zur Verfügung stellen. Bitte tragen Sie daher den direkten Link zum Garantie-PDF auf Ihrer Website ein (kein allgemeiner Link zur Startseite, kein Freitext). **Wichtig bei Zusendung per E-Mail:** Falls Sie keinen Web-Link bereitstellen können, senden Sie uns die Garantieerklärung bitte als PDF-Datei im E-Mail-Anhang mit. Tragen Sie in diesem Fall in Spalte F den **exakten Dateinamen** der PDF-Datei ein (z. B. `herstellergarantie_modell_xyz.pdf`), damit wir das Dokument eindeutig zuordnen können.
-* **Die „Set-Regel“ (Spalte G):** Bitte beachten Sie, dass das Garantielabel nur für Garantien genutzt werden darf, die sich auf das *gesamte* Produkt (Vollgarantie) beziehen. Teilgarantien (z. B. „10 Jahre nur auf den Motor“) oder Garantien, die nicht für alle Teile eines Sets gelten, dürfen nicht als Gesamtlaufzeit angegeben werden.  
-  **So tragen Sie dies in der Excel-Tabelle am besten ein:**  
-  * *Wenn die Garantie für das gesamte Produkt gilt:* Wählen Sie in Spalte G **„Ja“** und tragen Sie die Jahre in Spalte E ein.  
-  * *Wenn das Produkt aus mehreren Komponenten mit unterschiedlichen Garantiedauern besteht:* Tragen Sie in Spalte E die **kleinste Garantiedauer** ein, die für alle Komponenten des Produkts gleichermaßen gilt (z. B. 5 Jahre). Wählen Sie in Spalte G nur dann **„Ja“**, wenn diese kleinste Dauer mehr als 2 Jahre beträgt.  
-  * *Wichtig – Ausschluss bei nur 2 Jahren:* Sollte das gesamte Produkt (oder eine der Komponenten) keine freiwillige Garantie von mehr als 2 Jahren besitzen (sondern nur der gesetzlichen 2-jährigen Gewährleistung unterliegen), darf für diesen Artikel **kein Garantielabel** vergeben werden. Wählen Sie in diesem Fall in Spalte G **„Nein“** und lassen Sie die Spalten für Garantiedauer (Spalte E) und Garantiebedingungen (Spalte F) leer.
 
-Sollten Sie Fragen zum Ausfüllen der Liste oder zu den neuen gesetzlichen Anforderungen haben, steht Ihnen unser Team gerne zur Verfügung. 
+* **Das Blatt „Beispiel“:** In der Excel-Datei finden Sie ein separates Tabellenblatt mit einem bereits ausgefüllten Musterartikel (EcoFlow PowerOcean Batterie). Dort ist zu jeder Spalte genau erklärt, welche Information benötigt wird und warum.
+* **Garantiebedingungen als PDF/Link (Spalte F):** Das Gesetz verlangt, dass wir dem Kunden die Garantiebedingungen auf einem „dauerhaften Datenträger“ zur Verfügung stellen. Bitte tragen Sie daher den direkten Link zum Garantie-PDF auf Ihrer Website ein (kein allgemeiner Link zur Startseite, kein Freitext).
+  
+  **Wichtig bei Zusendung per E-Mail:** Falls Sie keinen Web-Link bereitstellen können, senden Sie uns die Garantieerklärung bitte als PDF-Datei im E-Mail-Anhang mit. Tragen Sie in diesem Fall in Spalte F den **exakten Dateinamen** der PDF-Datei ein (z. B. `herstellergarantie_modell_xyz.pdf`), damit wir das Dokument eindeutig zuordnen können.
+
+* **Die „Set-Regel“ (Spalte G):** Bitte beachten Sie, dass das Garantielabel nur für Garantien genutzt werden darf, die sich auf das *gesamte* Produkt (Vollgarantie) beziehen. Teilgarantien (z. B. „10 Jahre nur auf den Motor“) oder Garantien, die nicht für alle Teile eines Sets gelten, dürfen nicht als Gesamtlaufzeit angegeben werden.
+  
+  **So tragen Sie dies in der Excel-Tabelle am besten ein:**
+  * *Wenn die Garantie für das gesamte Produkt gilt:* Wählen Sie in Spalte G **„Ja“** und tragen Sie die Jahre in Spalte E ein.
+  * *Wenn das Produkt aus mehreren Komponenten mit unterschiedlichen Garantiedauern besteht:* Tragen Sie in Spalte E die **kleinste Garantiedauer** ein, die für alle Komponenten des Produkts gleichermaßen gilt (z. B. 5 Jahre). Wählen Sie in Spalte G nur dann **„Ja“**, wenn diese kleinste Dauer mehr als 2 Jahre beträgt.
+  * *Wichtig – Ausschluss bei nur 2 Jahren:* Sollte das gesamte Produkt (oder eine der Komponenten) keine freiwillige Garantie von mehr als 2 Jahren besitzen (sondern nur der gesetzlichen 2-jährigen Gewährleistung unterliegen), darf für diesen Artikel kein Garantielabel vergeben werden. Wählen Sie in diesem Fall in Spalte G **„Nein“** und lassen Sie die Spalten für Garantiedauer (Spalte E) und Garantiebedingungen (Spalte F) leer.
+
+Sollten Sie Fragen zum Ausfüllen der Liste oder zu den neuen gesetzlichen Anforderungen haben, steht Ihnen unser Team gerne zur Verfügung.
 
 Wir bedanken uns herzlich für Ihre Unterstützung und die wie gewohnt verlässliche Partnerschaft!
 
 Mit freundlichen Grüßen,
 
-**[Name des Einkäufers / Thomas Winkler]**  
-Einkauf / IT-Projektmanagement  
+**THOMAS WINKLER**  
+Kommunikation, Organisation und Prozesse  
 SBS HandelsGmbH  
-[Kontaktdaten]
+Franzosenhausweg 46, A-4030 Linz  
+E: thomas.winkler@sbs-austria.at  
+T: +43 (0) 699 1717 3370  
+UID-Nr.: ATU53306006  
+
 
 ---
 
