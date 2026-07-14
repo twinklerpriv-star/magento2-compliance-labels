@@ -1,29 +1,28 @@
 # Excel-Datenstruktur und Eingabehilfen: Lieferantenabfrage 2026
 
-**Datum:** 14.07.2026 | **Version:** 1.1 | **Status:** Aktiv
+**Datum:** 14.07.2026 | **Version:** 1.2 | **Status:** Aktiv
 
 ---
 
 ## 1. Spaltenstruktur und Validierungen (Übersicht)
 
-Die Tabelle umfasst nach der Reduktion der Artikelbezeichnung exakt 8 Spalten (A bis H). Für alle Eingabespalten (D bis H) sind hilfreiche Eingabehinweise (Prompts) hinterlegt. Die Spalten F und H besitzen zudem eine restriktive Validierung mit Fehlermeldungen bei Falscheingaben.
+Die Tabelle umfasst für das Lieferanten-Template exakt 7 Spalten (A bis G), die identisch mit den 7 Spalten der Spaltenanalyse sind. Für alle Eingabespalten (C bis G) sind hilfreiche Eingabehinweise (Prompts) hinterlegt. Die Spalten E und G besitzen zudem eine restriktive Validierung mit Fehlermeldungen bei Falscheingaben.
 
 | Spalte | Spaltenüberschrift (DE) | Spaltenüberschrift (EN) | Typ | Validierung / Restriktion |
 | :---: | :--- | :--- | :---: | :--- |
-| **A** | `Lie ID` | `Supplier ID` | Vorausgefüllt | Keine (Gesperrt für Eingabe) |
-| **B** | `Lieferant Zuname` | `Supplier Name` | Vorausgefüllt | Keine (Gesperrt für Eingabe) |
-| **C** | `ArtikelNr` | `SKU / Article Number` | Vorausgefüllt | Keine (Gesperrt für Eingabe) |
-| **D** | `Marke / Brand (Kurzform für Label - z. B. Miele)` | `Brand (short form for label - e.g. Miele)` | Eingabe | Text-Eingabe (Hilfe-Tooltip aktiv) |
-| **E** | `Modellbezeichnung (für Label)` | `Model Identifier (for Label)` | Eingabe | Text-Eingabe (Hilfe-Tooltip aktiv) |
-| **F** | `Herstellergarantie (in Jahren)` | `Manufacturer Warranty (in years)` | Eingabe | Ganzzahl > 2 (Restriktive Fehlermeldung) |
-| **G** | `Link zu Garantiebedingungen (URL beginnend mit https://)` | `Link to Warranty Conditions (URL starting with https://)` | Eingabe | Text-Eingabe (Hilfe-Tooltip aktiv) |
-| **H** | `Kostenlos & für gesamte Ware? (Ja/Nein)` | `Warranty is free of charge & covers entire product? (Yes/No)` | Eingabe | Dropdown-Liste: `Ja,Nein` / `Yes,No` (Restriktiv) |
+| **A** | `EAN / GTIN (Barcode)` | `EAN / GTIN (Barcode)` | Eingabe | Eindeutige Artikelzuordnung |
+| **B** | `Lieferanten-Artikelnummer (Herstellernummer)` | `Supplier SKU / Article Number` | Eingabe | Eindeutige Identifikation Lieferant |
+| **C** | `Marke / Brand (Kurzform für Label - z. B. Miele)` | `Brand (short form for label - e.g. Miele)` | Eingabe | Text-Eingabe (Hilfe-Tooltip aktiv) |
+| **D** | `Modellbezeichnung (für Label)` | `Model Identifier (for Label)` | Eingabe | Text-Eingabe (Hilfe-Tooltip aktiv) |
+| **E** | `Herstellergarantie (in Jahren)` | `Manufacturer Warranty (in years)` | Eingabe | Ganzzahl > 2 (Restriktive Fehlermeldung) |
+| **F** | `Link zu Garantiebedingungen (URL mit https://)` | `Link to Warranty Conditions (URL starting with https://)` | Eingabe | Text-Eingabe (Hilfe-Tooltip aktiv) |
+| **G** | `Kostenlos & für gesamte Ware? (Ja/Nein)` | `Warranty is free of charge & covers entire product? (Yes/No)` | Eingabe | Dropdown-Liste: `Ja,Nein` / `Yes,No` (Restriktiv) |
 
 ---
 
 ## 2. Detaillierte Konfiguration der Eingabehilfen (Tooltips & Fehler)
 
-### Spalte D: Marke / Brand
+### Spalte C: Marke / Brand
 * **Zweck:** Erfassung des reinen Markennamens zur Platzierung auf dem Label (z. B. "Miele" statt "Miele GmbH").
 * **Deutsch (DE):**
   * **Tooltip-Titel:** `Marke / Brand`
@@ -32,7 +31,7 @@ Die Tabelle umfasst nach der Reduktion der Artikelbezeichnung exakt 8 Spalten (A
   * **Tooltip-Titel:** `Brand Name`
   * **Tooltip-Text:** `Please enter the short brand name to be shown on the label (e.g. "Miele" instead of "Miele GmbH").`
 
-### Spalte E: Modellbezeichnung
+### Spalte D: Modellbezeichnung
 * **Zweck:** Zuweisung der eindeutigen Modellbezeichnung des Herstellers.
 * **Deutsch (DE):**
   * **Tooltip-Titel:** `Modellbezeichnung`
@@ -41,7 +40,7 @@ Die Tabelle umfasst nach der Reduktion der Artikelbezeichnung exakt 8 Spalten (A
   * **Tooltip-Titel:** `Model Identifier`
   * **Tooltip-Text:** `Please enter the exact manufacturer model code (e.g. "WXD160").`
 
-### Spalte F: Herstellergarantie (in Jahren)
+### Spalte E: Herstellergarantie (in Jahren)
 * **Zweck:** Angabe der Garantielaufzeit. Nur Ganzzahlen über 2 sind zulässig.
 * **Deutsch (DE):**
   * **Tooltip-Titel:** `Herstellergarantie`
@@ -54,7 +53,7 @@ Die Tabelle umfasst nach der Reduktion der Artikelbezeichnung exakt 8 Spalten (A
   * **Fehler-Titel:** `Invalid Value`
   * **Fehler-Text:** `Please enter a whole number greater than 2 (e.g. 3, 5, 10).`
 
-### Spalte G: Link zu Garantiebedingungen
+### Spalte F: Link zu Garantiebedingungen
 * **Zweck:** Erfassung der URL zu den rechtsverbindlichen Garantiebedingungen (Pflichtbestandteil des Labels).
 * **Deutsch (DE):**
   * **Tooltip-Titel:** `Link zu Garantiebedingungen`
@@ -63,7 +62,7 @@ Die Tabelle umfasst nach der Reduktion der Artikelbezeichnung exakt 8 Spalten (A
   * **Tooltip-Titel:** `Link to Warranty Conditions`
   * **Tooltip-Text:** `Please enter the direct URL link to the warranty conditions on your website (e.g., https://www.manufacturer.com/warranty). Do not write free text like "in the box".`
 
-### Spalte H: Kostenlose Garantiebestätigung
+### Spalte G: Kostenlose Garantiebestätigung
 * **Zweck:** Absicherung, ob die Garantie alle gesetzlichen Label-Kriterien erfüllt (kostenlos & Vollgarantie).
 * **Deutsch (DE):**
   * **Dropdown-Optionen:** `Ja,Nein`
@@ -93,7 +92,7 @@ dv_info.prompt = "Tooltip-Inhalt"
 dv_info.promptTitle = "Tooltip-Titel"
 ws.add_data_validation(dv_info)
 
-# Bereich zuweisen (z. B. Spalte D)
-dv_info.add("D2:D100")
+# Bereich zuweisen (z. B. Spalte C)
+dv_info.add("C2:C1000")
 ```
 Dies stellt sicher, dass Excel den Hinweiskasten einblendet, dem Lieferanten aber freien Text zur Eingabe überlässt (nötig für Marken, Modellbezeichnungen und URLs).
