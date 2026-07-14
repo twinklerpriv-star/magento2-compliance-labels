@@ -6,6 +6,14 @@ Dieses Logbuch dokumentiert alle wichtigen Abstimmungen, Entscheidungen und E-Ma
 
 ---
 
+## 14.07.2026: Umsetzung der Beschlüsse aus dem Abstimmungsgespräch mit Helmut Nobis
+*   **Beteiligte:** Thomas Winkler (SBS), Helmut Nobis (Einkaufsleitung)
+*   **Inhalt:** Umsetzung der Entscheidungen vom Abstimmungsgespräch am 13.07.2026:
+    *   **Spalte 5 (Artikelbezeichnung):** Wurde gelöscht, da SBS den Import automatisiert über EAN/SKU durchführt und der Lieferant so weniger Tippaufwand hat.
+    *   **Spalte 6 (Link zu Garantiebedingungen):** Klarstellung nach § 9a KSchG (Anforderung eines dauerhaften Datenträgers / PDFs). Die Erklärungen im Excel wurden geschärft und ein echtes EcoFlow PowerOcean PDF-Beispiel eingepflegt.
+    *   **Erweiterung des Beispiels:** Einpflege von Begründungen/Gesetzesgrundlagen in Spalte C des Beispiel-Blatts zur Erhöhung der Lieferanten-Compliance.
+    *   **Set-Regel geklärt:** Juristische Analyse bezüglich Sets/Bundles unter UWG und Richtlinie (EU) 2024/825 – das Label darf nur die Dauer anzeigen, die die gesamte Ware abdeckt (Orientierung am schwächsten Glied).
+
 ## 10.07.2026: Statusupdate zur Label-Generierung (Dienstleister-Entdeckung)
 *   **Beteiligte:** Thomas Winkler (SBS)
 *   **Inhalt:** Entdeckung der Online-Plattform **[garan-label.com](https://garan-label.com/)** zur automatisierten Erstellung von EU-konformen Garantielabel-Bildern. Das Tool bietet Einzelgenerierung, CSV-Massen-Upload und eine API-Schnittstelle.
