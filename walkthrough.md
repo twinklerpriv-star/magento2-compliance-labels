@@ -88,6 +88,20 @@ Diese Unterlagen dienen der Erhebung der verlängerten Herstellergarantien bei L
    * Exakte Erfassung aller Tooltip-Texte und -Titel sowie der Fehlermeldungen für alle Spalten E bis I.
    * Technische Dokumentation zur Umsetzung in Python via `openpyxl`.
 
+### G. Finalisierung der Vorlagen und Re-Generierung (14.07.2026)
+1. **Reduzierung auf 7 Spalten:**
+   * Basierend auf dem Abstimmungsgespräch mit Helmut Nobis (13.07.) wurde das Layout auf 7 Spalten (A bis G) reduziert.
+   * Die Spalte `Artikelbezeichnung` entfiel, da EAN und Herstellernummer für den Import ausreichen und Tippaufwand reduziert werden soll.
+2. **Ordner-Restrukturierung:**
+   * Die Vorlagen wurden in den neuen Unterordner `Meilenstein 1/Lieferantenabfrage/` verschoben.
+   * Dateinamen wurden zur Konsistenz vereinheitlicht: [Supplier_Warranty_Inquiry_Template_DE.xlsx](file:///C:/Users/thomas.winkler/Desktop/Projekte/Google%20Antigravity/ELEKTROPEPI/GEWAEHRLEISTUNG_GARANTIELABEL/Meilenstein%201/Lieferantenabfrage/Supplier_Warranty_Inquiry_Template_DE.xlsx) und [Supplier_Warranty_Inquiry_Template_EN.xlsx](file:///C:/Users/thomas.winkler/Desktop/Projekte/Google%20Antigravity/ELEKTROPEPI/GEWAEHRLEISTUNG_GARANTIELABEL/Meilenstein%201/Lieferantenabfrage/Supplier_Warranty_Inquiry_Template_EN.xlsx).
+   * Veraltete, einfache Vorlagen ohne Beispielblatt wurden vollständig gelöscht.
+3. **Beispielblatt mit rechtlichen Begründungen:**
+   * Das Blatt `Beispiel` / `Example` wurde mit realen EcoFlow PowerOcean Batteriedaten befüllt.
+   * Eine neue Spalte C (`Begründung / Gesetzliche Grundlage`) wurde hinzugefügt, um Lieferanten den rechtlichen Hintergrund der Pflichtfelder transparent darzulegen und die Rücklaufquote zu erhöhen.
+4. **E-Mail-Anschreiben für Lieferanten:**
+   * Ein bilingualer Entwurf für das Lieferantenanschreiben wurde erarbeitet und unter [02_Email_Entwurf_Lieferanten_Garantieabfrage.md](file:///C:/Users/thomas.winkler/Desktop/Projekte/Google%20Antigravity/ELEKTROPEPI/GEWAEHRLEISTUNG_GARANTIELABEL/Meilenstein%201/Korrespondenz/02_Email_Entwurf_Lieferanten_Garantieabfrage.md) abgelegt.
+
 ---
 
 ## 2. Verifizierung & Testergebnisse
@@ -95,8 +109,10 @@ Diese Unterlagen dienen der Erhebung der verlängerten Herstellergarantien bei L
 * **PowerPoint-Präsentation:**
   * Das Generierungs-Skript lief fehlerfrei durch und erstellte die Datei [wko_seminar_verbrauchsaenderungsgesetz.pptx](file:///C:/Users/thomas.winkler/Desktop/Projekte/Google%20Antigravity/ELEKTROPEPI/wko_seminar_verbrauchsaenderungsgesetz.pptx).
   * Visuelle Kontrolle über PNG-Export bestätigte einwandfreie Ausrichtung ohne Textüberläufe.
-* **Excel-Dateien (Vorlagen):**
-  * Die Ausführung des Skripts erstellte beide Vorlagen fehlerfrei im Zielverzeichnis.
-* **Lieferantenspezifische Verteilung (208 Dateien):**
-  * Die Ausführung von [split_articles_by_supplier.py](file:///C:/Users/thomas.winkler/Desktop/Projekte/Google%20Antigravity/ELEKTROPEPI/GEWAEHRLEISTUNG_GARANTIELABEL/scratch/split_articles_by_supplier.py) und [split_articles_by_supplier_en.py](file:///C:/Users/thomas.winkler/Desktop/Projekte/Google%20Antigravity/ELEKTROPEPI/GEWAEHRLEISTUNG_GARANTIELABEL/scratch/split_articles_by_supplier_en.py) erstellte erfolgreich alle 104 Lieferantenordner und je zwei Excel-Dateien (insgesamt 208 Dateien).
-  * Das aktualisierte Validierungsskript [verify_excel.py](file:///C:/Users/thomas.winkler/Desktop/Projekte/Google%20Antigravity/ELEKTROPEPI/GEWAEHRLEISTUNG_GARANTIELABEL/scratch/verify_excel.py) hat alle 208 Dateien erfolgreich geprüft (Ergebnis: 0 Fehler). Alle Dateien besitzen die korrekte 9-Spalten-Tabellenstruktur, alle 5 konfigurierten Validierungs- und Tooltip-Regeln (Spalten E, F, G, H, I), korrekte Sheet-Namen und Tabellenbezeichnungen sowie das originale grüne Farb-Theme.
+* **Behebung des Hyperlink-Bugs (Zelle B7):**
+  * Es wurde verifiziert, dass openpyxl beim reinen Überschreiben von Zellwerten das darunterliegende Excel-Hyperlinkziel unberührt ließ (was zu einem toten Link auf AS-SAT führte). 
+  * Dies wurde per Skript korrigiert: Sowohl Zellwert als auch Hyperlink-Ziel verweisen nun in allen Dateien korrekt auf die offizielle EcoFlow-PDF.
+* **Erfolgreiche Re-Generierung aller 104 Lieferantenpakete (14.07.2026):**
+  * Das neue Skript `scratch/split_articles_by_supplier_7col.py` generierte erfolgreich 104 Unterordner unter `Meilenstein 2/Lieferanten/`.
+  * Jedes Paket enthält nun die deutsche Version `*_Garantieabfrage.xlsx` (Blatt: `Garantiedaten_Erfassung`) und die englische Version `*_Warranty_Inquiry.xlsx` (Blatt: `Warranty_Data_Entry`) im neuen 7-Spalten-Layout inklusive funktionierendem Beispielblatt.
+
