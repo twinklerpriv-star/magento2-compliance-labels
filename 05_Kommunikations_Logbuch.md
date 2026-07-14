@@ -21,7 +21,7 @@ Dieses Logbuch dokumentiert alle wichtigen Abstimmungen, Entscheidungen und E-Ma
 
 ## 09.07.2026: E-Mail an Helmut Nobis mit Spaltenanalyse
 *   **Beteiligte:** Thomas Winkler (SBS), Helmut Nobis (Einkaufsleitung, SBS), Elisabeth Platzl (Geschäftsführung, SBS, in CC)
-*   **Inhalt:** Thomas Winkler übersendet die neu erstellte [Spaltenanalyse_Lieferantenabfrage.xlsx](file:///C:/Users/thomas.winkler/Desktop/Projekte/Google%20Antigravity/ELEKTROPEPI/GEWAEHRLEISTUNG_GARANTIELABEL/Meilenstein%201/Spaltenanalyse_Lieferantenabfrage.xlsx) an Helmut Nobis. Sie dient als Diskussions- und Entscheidungsgrundlage für ein anstehendes Meeting über die Spaltenstruktur der Lieferantenabfrage.
+*   **Inhalt:** Thomas Winkler übersendet die neu erstellte [Spaltenanalyse_Lieferantenabfrage.xlsx](file:///C:/Users/thomas.winkler/Desktop/Projekte/Google%20Antigravity/ELEKTROPEPI/GEWAEHRLEISTUNG_GARANTIELABEL/Meilenstein%201/Lieferantenabfrage/Spaltenanalyse_Lieferantenabfrage.xlsx) an Helmut Nobis. Sie dient als Diskussions- und Entscheidungsgrundlage für ein anstehendes Meeting über die Spaltenstruktur der Lieferantenabfrage.
 *   **Entscheidung / Nächster Schritt:** Termin zur Abstimmung der Spaltenstruktur wurde vereinbart auf **Montag, 13.07.2026 um 10:00 Uhr** im Büroraum von Thomas Winkler.
 
 ## 07.07.2026: Jour Fixe Thomas Winkler & Elisabeth Platzl

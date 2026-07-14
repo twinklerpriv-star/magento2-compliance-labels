@@ -14,8 +14,8 @@
     *   Details zur Haltbarkeitsgarantie: [WKO - Haltbarkeitsgarantie Details](https://www.wko.at/handel/elektro-einrichtungsfachhandel/informationspflichten-garantien-gewaehrleistung-haendle#heading_haltbarkeitsgarantie___was_muss_mitgeteilt_werden_)
 *   **Garantieabfrage-Dateivorlagen:**
     Für die Erhebung der Herstellergarantien bei Lieferanten wurden zwei benutzerfreundliche Excel-Vorlagen mit Beispielblatt erstellt (deutsch/englisch).
-    Die deutsche Vorlage ist unter [Lieferantenabfrage_Template.xlsx](file:///C:/Users/thomas.winkler/Desktop/Projekte/Google%20Antigravity/ELEKTROPEPI/GEWAEHRLEISTUNG_GARANTIELABEL/Meilenstein%201/Lieferantenabfrage_Template.xlsx) abgelegt.
-    Die englische Vorlage ist unter [Supplier_Warranty_Inquiry_Template.xlsx](file:///C:/Users/thomas.winkler/Desktop/Projekte/Google%20Antigravity/ELEKTROPEPI/GEWAEHRLEISTUNG_GARANTIELABEL/Meilenstein%201/Supplier_Warranty_Inquiry_Template.xlsx) abgelegt.
+    Die deutsche Vorlage ist unter [Supplier_Warranty_Inquiry_Template_DE.xlsx](file:///C:/Users/thomas.winkler/Desktop/Projekte/Google%20Antigravity/ELEKTROPEPI/GEWAEHRLEISTUNG_GARANTIELABEL/Meilenstein%201/Lieferantenabfrage/Supplier_Warranty_Inquiry_Template_DE.xlsx) abgelegt.
+    Die englische Vorlage ist unter [Supplier_Warranty_Inquiry_Template_EN.xlsx](file:///C:/Users/thomas.winkler/Desktop/Projekte/Google%20Antigravity/ELEKTROPEPI/GEWAEHRLEISTUNG_GARANTIELABEL/Meilenstein%201/Lieferantenabfrage/Supplier_Warranty_Inquiry_Template_EN.xlsx) abgelegt.
 *   **Lieferantenspezifische Verteilung (Splittung):**
     Die Gesamtartikelliste wurde nach Lieferanten gefiltert und in 104 separate Ordner zerlegt (aktualisiert am 24.06.2026).
     Der Zielpfad ist [Lieferanten](file:///C:/Users/thomas.winkler/Desktop/Projekte/Google%20Antigravity/ELEKTROPEPI/GEWAEHRLEISTUNG_GARANTIELABEL/Meilenstein%202/Lieferanten).
@@ -36,7 +36,7 @@
 *   [x] **Besprechung der Markant/Globus-E-Mail im Jour Fixe (07.07.2026):**
     Ergebnisse: Vertagt / Fokus liegt zunächst auf der Strukturierung der Lieferanten-Garantieabfrage.
 *   [ ] **Finale Spaltenabstimmung mit Helmut Nobis:**
-    Besprechung der [Spaltenanalyse_Lieferantenabfrage.xlsx](file:///C:/Users/thomas.winkler/Desktop/Projekte/Google%20Antigravity/ELEKTROPEPI/GEWAEHRLEISTUNG_GARANTIELABEL/Meilenstein%201/Spaltenanalyse_Lieferantenabfrage.xlsx) zur Festlegung der abzufragenden Spalten. **Termin: Montag, 13.07.2026 um 10:00 Uhr** (im Büro von Thomas Winkler).
+    Besprechung der [Spaltenanalyse_Lieferantenabfrage.xlsx](file:///C:/Users/thomas.winkler/Desktop/Projekte/Google%20Antigravity/ELEKTROPEPI/GEWAEHRLEISTUNG_GARANTIELABEL/Meilenstein%201/Lieferantenabfrage/Spaltenanalyse_Lieferantenabfrage.xlsx) zur Festlegung der abzufragenden Spalten. **Termin: Montag, 13.07.2026 um 10:00 Uhr** (im Büro von Thomas Winkler).
 *   [ ] **Lieferantenauswahl durch Einkauf:**
     Helmut Nobis um Erstellung einer Auswahl jener Lieferanten bitten, die tatsächlich angeschrieben werden sollen.
 *   [ ] **Umstrukturierung der Excel-Vorlagen (nach Freigabe):**
