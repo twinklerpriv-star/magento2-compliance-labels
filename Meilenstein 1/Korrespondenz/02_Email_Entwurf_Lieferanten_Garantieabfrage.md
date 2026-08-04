@@ -52,6 +52,10 @@ Um eine fehlerfreie Verarbeitung und Zuordnung in unseren Onlineshops zu gewähr
 
 *Hinweis zur Generierung:* Für die Erstellung von gesetzeskonformen Garantie-Labels gibt es bereits verschiedene Dienstleister. Ein Beispiel hierfür ist **[garan-label.com](https://garan-label.com/)**.
 
+**Rechtliche Hintergrundinformationen:**
+Ausführliche Details zu den neuen gesetzlichen Informationspflichten bezüglich der Haltbarkeitsgarantie finden Sie auf den offiziellen Informationsseiten der Wirtschaftskammer Österreich (WKO):  
+🔗 [WKO: Informationspflichten zu Garantien & Gewährleistung](https://www.wko.at/handel/elektro-einrichtungsfachhandel/informationspflichten-garantien-gewaehrleistung-haendle#heading_haltbarkeitsgarantie___was_muss_mitgeteilt_werden_)
+
 Sollten Sie Fragen zum Ausfüllen der Liste oder zu den neuen gesetzlichen Anforderungen haben, steht Ihnen unser Team gerne zur Verfügung.
 
 Wir bedanken uns herzlich für Ihre Unterstützung und die wie gewohnt verlässliche Partnerschaft!
@@ -113,6 +117,10 @@ To ensure error-free processing and automatic mapping in our online shops, pleas
 * **Grouped transmission as a .zip file:** If you are sending labels for multiple products, please package the files together in a single **.zip archive** (e.g. `Warranty_Labels_[Supplier_Name].zip`) to simplify email delivery.
 
 *Note on generation:* There are now several online services available for generating legally compliant EU warranty labels. An example of this is **[garan-label.com](https://garan-label.com/)**.
+
+**Legal Background Information:**
+Detailed information about the new EU-wide disclosure requirements for commercial durability guarantees can be found on the official European Union portal (available in all EU languages):  
+🔗 [European Commission: Durability Guarantee Information](https://europa.eu/youreurope/commercial-guarantee-durability/index.htm)
 
 If you have any questions regarding the Excel sheet or the new legal requirements, please feel free to contact us at any time.
 
