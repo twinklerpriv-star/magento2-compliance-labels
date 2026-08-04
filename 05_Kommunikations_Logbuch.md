@@ -1,10 +1,18 @@
 # Kommunikations-Logbuch: Gewährleistungs- und Garantielabel 2026
 
-**Datum:** 10.07.2026 | **Version:** 1.1 | **Status:** In Arbeit
+**Datum:** 04.08.2026 | **Version:** 1.2 | **Status:** In Arbeit
 
 Dieses Logbuch dokumentiert alle wichtigen Abstimmungen, Entscheidungen und E-Mail-Verläufe für das Projekt Gewährleistungs- und Garantielabel.
 
 ---
+
+## 04.08.2026: Finalisierung des E-Mail-Entwurfs und Weiterleitung an den Einkauf
+*   **Beteiligte:** Thomas Winkler (SBS), Helmut Nobis (Einkaufsleitung)
+*   **Inhalt:** Finalisierung des Anschreiben-Entwurfs für die Lieferanten:
+    *   **Strukturierung in Punkte:** Der Text wurde klar in **Punkt 1 (Excel-Datenabfrage)** und **Punkt 2 (Garantielabel-Grafikdateien)** unterteilt.
+    *   **Garantielabels (Punkt 2):** Festlegung der Anforderungen an Bilddateien (Erlaubte Formate **.png** oder **.pdf**), eindeutige Benennung nach **EAN** oder **Hersteller-Artikelnummer** zur automatisierten Magento-Zuordnung sowie Bündelung in einer **.zip-Datei**.
+    *   **Rechtliche Referenzen:** Ergänzung offizieller Referenz-Links (WKO-Detailseite für DACH-Raum, EU-Portal für internationale Partner).
+*   **Entscheidung / Nächster Schritt:** Thomas Winkler hat den fertigen E-Mail-Entwurf an Helmut Nobis zur Freigabe übermittelt. Das Projekt befindet sich aktuell im Standby bis zur Rückmeldung aus dem Einkauf.
 
 ## 14.07.2026: Umsetzung der Beschlüsse aus dem Abstimmungsgespräch mit Helmut Nobis
 *   **Beteiligte:** Thomas Winkler (SBS), Helmut Nobis (Einkaufsleitung)
