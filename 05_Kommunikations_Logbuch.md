@@ -1,10 +1,22 @@
 # Kommunikations-Logbuch: Gewährleistungs- und Garantielabel 2026
 
-**Datum:** 04.08.2026 | **Version:** 1.2 | **Status:** In Arbeit
+**Datum:** 06.08.2026 | **Version:** 1.3 | **Status:** In Arbeit
 
 Dieses Logbuch dokumentiert alle wichtigen Abstimmungen, Entscheidungen und E-Mail-Verläufe für das Projekt Gewährleistungs- und Garantielabel.
 
 ---
+
+## 06.08.2026: Freigabe und Start der Lieferantenabfrage
+*   **Beteiligte:** Thomas Winkler (SBS), Helmut Nobis (Einkaufsleitung)
+*   **Inhalt:** Freigabe des finalen E-Mail-Anschreibens durch den Einkauf. Thomas Winkler hat heute die Abfrage bei den von Helmut Nobis ausgewählten Lieferanten gestartet.
+*   **Angeschriebene Lieferanten (und Kontaktpersonen):**
+    *   **Thermotec:** Andreas Rudolph (`a.rudolph@thermotec-ag.de`)
+    *   **Shelly:** Katharina Mayer (`katharina.mayer@shelly.com`)
+    *   **EcoFlow:** Jue Wang (`jue.wang@ecoflow.com`), Vicky Chen (`vicky.chen@ecoflow.com`)
+    *   **Ezviz:** Moein Ramezani (`moein.ramezani@ezviz.com`)
+    *   **Avidsen:** Thibaud Petry (`tpetry@avidsen.com`)
+    *   **Bodo Ehmann:** Markus Rosen (`markus.rosen@ehmann-gmbh.de`), Petra Friedmann (`petra.friedmann@ehmann-gmbh.de`)
+*   **Nächster Schritt:** Warten auf die Rückmeldungen der kontaktierten Lieferanten mit den ausgefüllten Excel-Dateien und Garantie-Labels.
 
 ## 04.08.2026: Finalisierung des E-Mail-Entwurfs und Weiterleitung an den Einkauf
 *   **Beteiligte:** Thomas Winkler (SBS), Helmut Nobis (Einkaufsleitung)
