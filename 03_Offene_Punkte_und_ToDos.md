@@ -32,22 +32,23 @@
 
 ## 2. Offene To-Dos (Agiles Backlog)
 
-### ▶ Aktueller Fokus: Abstimmung mit Einkauf & Lieferanten
-*   [x] **Besprechung der Markant/Globus-E-Mail im Jour Fixe (07.07.2026):**
-    Ergebnisse: Vertagt / Fokus liegt zunächst auf der Strukturierung der Lieferanten-Garantieabfrage.
-*   [ ] **Finale Spaltenabstimmung mit Helmut Nobis:**
-    Besprechung der [Spaltenanalyse_Lieferantenabfrage.xlsx](file:///C:/Users/thomas.winkler/Desktop/Projekte/Google%20Antigravity/ELEKTROPEPI/GEWAEHRLEISTUNG_GARANTIELABEL/Meilenstein%201/Lieferantenabfrage/Spaltenanalyse_Lieferantenabfrage.xlsx) zur Festlegung der abzufragenden Spalten. **Termin: Montag, 13.07.2026 um 10:00 Uhr** (im Büro von Thomas Winkler).
-*   [ ] **Lieferantenauswahl durch Einkauf:**
-    Helmut Nobis um Erstellung einer Auswahl jener Lieferanten bitten, die tatsächlich angeschrieben werden sollen.
-*   [ ] **Umstrukturierung der Excel-Vorlagen (nach Freigabe):**
-    Überarbeitung der 104 Lieferantenordner: Umstellung auf leere Listen und Hinzufügen des Tabellenblatts „Beispiel“ (Spalten als Zeilen in Spalte A, Werte in Spalte B).
-*   *Warten auf Rücklauf der Lieferanten-Excel-Dateien (Zusendung durch Thomas Winkler vorgeschlagen).*
+### ▶ Aktueller Fokus: Warten auf Lieferanten-Rücklauf (Gestartet 06.08.2026)
+*   [x] **Finale Spaltenabstimmung mit Helmut Nobis:**
+    Besprechung der [Spaltenanalyse_Lieferantenabfrage.xlsx](file:///C:/Users/thomas.winkler/Desktop/Projekte/Google%20Antigravity/ELEKTROPEPI/GEWAEHRLEISTUNG_GARANTIELABEL/Meilenstein%201/Lieferantenabfrage/Spaltenanalyse_Lieferantenabfrage.xlsx) zur Festlegung der abzufragenden Spalten. (Erfolgreich auf 7 Spalten reduziert).
+*   [x] **Lieferantenauswahl durch Einkauf:**
+    Helmut Nobis hat eine gezielte Auswahl von 6 Lieferanten getroffen (Thermotec, Shelly, EcoFlow, Ezviz, Avidsen, Bodo Ehmann).
+*   [x] **Umstrukturierung der Excel-Vorlagen & Re-Generierung:**
+    Überarbeitung und Generierung des neuen 7-spaltigen Layouts inklusive echtem EcoFlow-Beispielblatt und Reparatur der Hyperlinks für alle Lieferanten.
+*   [x] **Start der Aussendung (06.08.2026):**
+    Aussendung der Anschreiben und Excel-Tabellen an die 6 ausgewählten Lieferanten durch Thomas Winkler.
+*   [ ] **Überwachung des Rücklaufs:**
+    Erfassung und Prüfung der eingehenden Lieferantendaten (Excel-Dateien & PDF/PNG-Garantielabels). Deadline für Lieferanten: **[ca. Anfang September 2026]**.
 
 ### ⏳ Zukünftige Etappen (Zur Orientierung - Aktuell on hold)
 *   [ ] **Evaluation des Dienstleisters garan-label.com:**
     Vergleich der Integrations- und Generierungsoptionen (Massen-Generierung via CSV-Upload für den Magento-Import und m.PIM-Upload vs. API-Schnittstelle) als kosteneffiziente Alternative zur rein internen Entwicklung eines eigenen Magento-Generators.
 *   [ ] **Spezifikation der Magento-Datenstruktur:**
-    Definition der notwendigen Produkt-Attribute (Garantiejahre, Hersteller, Modellkennung) im Magento-Backend.
+    Definition der notwendigen Produkt-Attribute (Garantiejahre, Hersteller, Modellkennung, PDF-Link) im Magento-Backend.
 *   [ ] **Datenpflege & Import-Vorbereitung:**
     Strukturierte Erfassung der von Lieferanten übermittelten Garantiedaten zur Vorbereitung des CSV-Imports.
 *   [ ] **Übergabe des Moduls an weboffice:**
@@ -55,10 +56,11 @@
 
 ---
 
-## 3. Erledigt / Warten auf externe Partner (Archiv)
+## 3. Erledigt / Archiv
 *   [x] **Schreiben an den Einkauf entwerfen:**
-    Der E-Mail-Entwurf an Helmut Nobis wurde erstellt und unter [01_Email_Entwurf_Heli_Nobis_Garantieabfrage.md](file:///C:/Users/thomas.winkler/Desktop/Projekte/Google%20Antigravity/ELEKTROPEPI/GEWAEHRLEISTUNG_GARANTIELABEL/Meilenstein%201/Korrespondenz/01_Email_Entwurf_Heli_Nobis_Garantieabfrage.md) abgelegt (23.06.2026).
-*   [ ] **Lieferanten-Abklärung durch den Einkauf initiieren:**
-    Der Einkauf soll die Lieferanten kontaktieren, um abzuklären, welche Artikel konkret von der Garantiekennzeichnungspflicht betroffen sind (Warten auf Rücklauf von Einkauf/Lieferanten, E-Mail gesendet am 23.06.2026).
+    Der E-Mail-Entwurf an Helmut Nobis wurde unter [01_Email_Entwurf_Heli_Nobis_Garantieabfrage.md](file:///C:/Users/thomas.winkler/Desktop/Projekte/Google%20Antigravity/ELEKTROPEPI/GEWAEHRLEISTUNG_GARANTIELABEL/Meilenstein%201/Korrespondenz/01_Email_Entwurf_Heli_Nobis_Garantieabfrage.md) abgelegt (23.06.2026).
+*   [x] **Lieferanten-Abklärung durch den Einkauf initiieren (06.08.2026):**
+    Die erste Welle der Lieferantenabfrage wurde gestartet (6 Lieferanten kontaktiert).
 *   [ ] **Klärung der Blisterverpackungs-Logik:**
-    Im Zuge der Lieferanten-Abklärung ist zu klären, ob SBS das Label bei Blisterverpackungen selbst aufbringen muss (Warten auf Rücklauf von Einkauf/Lieferanten, E-Mail gesendet am 23.06.2026).
+    Im Zuge der Lieferanten-Abfrage ist zu klären, ob SBS das Label bei Blisterverpackungen selbst aufbringen muss (Warten auf Rückmeldungen der Lieferanten).
+
